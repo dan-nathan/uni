@@ -1,0 +1,73 @@
+package stops;
+
+import network.Network;
+
+import static org.junit.Assert.*;
+
+public class RoutingTableTest {
+
+    Network network;
+    Stop stop1;
+    Stop stop2;
+    Stop stop3;
+    Stop stop4;
+    Stop stop5;
+
+    @org.junit.Before
+    public void setUp() throws Exception {
+        network = new Network();
+        stop1 = new Stop("Stop 1", 0, 0);
+        stop2 = new Stop("Stop 2", 1, 2);
+        stop3 = new Stop("Stop 3", -2, 1);
+        stop4 = new Stop("Stop 4", 0, 4);
+        stop5 = new Stop("Stop 5", 2, 3);
+    }
+
+    @org.junit.After
+    public void tearDown() throws Exception {
+    }
+
+    @org.junit.Test
+    public void addNeighbour() {
+        stop1.getRoutingTable().addNeighbour(stop2);
+        stop1.getRoutingTable().addNeighbour(stop3);
+        stop2.getRoutingTable().addNeighbour(stop4);
+        stop2.getRoutingTable().addNeighbour(stop5);
+        assertTrue(stop1.getRoutingTable().getCosts().containsKey(stop2));
+        assertEquals((long) stop1.getRoutingTable().getCosts().get(stop2), 3);
+    }
+
+    @org.junit.Test
+    public void addOrUpdateEntry() {
+    }
+
+    @org.junit.Test
+    public void costTo() {
+    }
+
+    @org.junit.Test
+    public void getCosts() {
+    }
+
+    @org.junit.Test
+    public void getStop() {
+        RoutingTable routingTable = new RoutingTable(stop1);
+        assertEquals(routingTable.getStop(), stop1);
+    }
+
+    @org.junit.Test
+    public void nextStop() {
+    }
+
+    @org.junit.Test
+    public void synchronise() {
+    }
+
+    @org.junit.Test
+    public void transferEntries() {
+    }
+
+    @org.junit.Test
+    public void traverseNetwork() {
+    }
+}

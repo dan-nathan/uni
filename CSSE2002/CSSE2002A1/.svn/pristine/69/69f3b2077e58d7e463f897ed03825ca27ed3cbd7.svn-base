@@ -1,0 +1,60 @@
+package passengers;
+
+import stops.Stop;
+
+public class Passenger extends Object {
+
+    // The passenger's name
+    private String name;
+
+    // The passenger's desired destination
+    private Stop destination;
+
+    // The passenger's current location
+    private Stop location;
+
+    public Passenger(String name, Stop destination) {
+        if (name == null) {
+            this.name = "";
+        } else {
+            this.name = name;
+        }
+        this.destination = destination;
+        // The passenger is not assigned a location on creation
+        this.location = null;
+    }
+
+    public Passenger(String name) {
+        // Calls the other constructor with destination set to null
+        this(name, null);
+    }
+
+    public String getName() {
+        return this.name;
+    }
+
+    public void setDestination(Stop destination) {
+        this.destination = destination;
+    }
+
+    public Stop getDestination() {
+        return this.destination;
+    }
+
+    public Stop getLocation() {
+        return this.location;
+    }
+
+    public void setLocation(Stop stop) {
+        this.location = stop;
+    }
+
+    @Override
+    public String toString() {
+        if (name.equals("")) {
+            return "Anonymous passenger";
+        }
+        return "Passenger named " + this.name;
+    }
+
+}

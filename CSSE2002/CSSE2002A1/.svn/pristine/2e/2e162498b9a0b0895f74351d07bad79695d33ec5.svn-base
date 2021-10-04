@@ -1,0 +1,62 @@
+package passengers;
+
+import stops.Stop;
+
+public class ConcessionPassenger extends Passenger {
+
+    // The passenger's concession ID number
+    private int concessionId;
+
+    // Whether or not the passenger's concession status is valid
+    private boolean valid;
+
+    /**
+     * Constructor to initialise a concession passenger
+     * @param name the passenger's name
+     * @param destination the passenger's destination
+     * @param concessionId the passenger's concession ID
+     */
+    public ConcessionPassenger(String name, Stop destination, int concessionId) {
+        super(name, destination);
+        this.concessionId = concessionId;
+    }
+
+    /**
+     * Sets the passenger's concession status to invalid
+     */
+    public void expire() {
+        this.valid = false;
+    }
+
+    /**
+     * Sets the passenger's concession status to valid, and assigns a new
+     * concession ID
+     * @param newId the new ID
+     */
+    public void renew(int newId) {
+        this.valid = true;
+        this.concessionId = newId;
+    }
+
+    /**
+     * Checks if the passenger's concession status is valid
+     * @return whether or not the concession status is valid
+     */
+    public boolean isValid() {
+
+        // Check if concessionID is too short or a negative number
+        if (valid == false || Integer.toString(concessionId).length() < 6
+                || concessionId < 0) {
+            return false;
+        }
+        final String LEADING_DIGITS = "42";
+
+        // Converts to a string, then checks that the first n characters match
+        // the required LEADING_DIGITS where n is the number of relevant digits
+        if (Integer.toString(concessionId).substring(0, LEADING_DIGITS.length())
+                == LEADING_DIGITS) {
+            return true;
+        }
+        return false;
+    }
+}

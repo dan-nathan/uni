@@ -1,0 +1,12 @@
+package routes;
+
+public class TrainRoute extends Route {
+
+    public TrainRoute(String name, int routeNumber) {
+        super(name, routeNumber);
+    }
+
+    public String getType() {
+        return "train";
+    }
+}

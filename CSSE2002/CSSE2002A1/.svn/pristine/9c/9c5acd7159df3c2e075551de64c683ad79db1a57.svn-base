@@ -1,0 +1,38 @@
+public class Passenger extends Object {
+    private String name;
+    private Stop destination;
+
+    public void Passenger(String name) {
+        Passenger(name, null);
+    }
+
+    public void Passenger(String name, Stop destination) {
+        if (name == null) {
+            this.name = "";
+        } else {
+            this.name = name;
+        }
+        this.destination = destination;
+    }
+
+    public String getName() {
+        return this.name;
+    }
+
+    public void setDestination(Stop destination) {
+        this.destination = destination;
+    }
+
+    public Stop getDestination() {
+        return this.destination;
+    }
+
+    @Override
+    public String toString() {
+        if (name == "") {
+            return "Anonymous passenger";
+        }
+        return "Passenger named " + this.name;
+    }
+
+}

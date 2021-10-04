@@ -1,0 +1,45 @@
+package vehicles;
+
+import routes.Route;
+
+/**
+ * Represents a ferry in the transportation network.
+ */
+public class Ferry extends PublicTransport {
+
+    // The type of ferry that the ferry is
+    private String ferryType;
+
+    /**
+     * Creates a new Ferry object with the given id, capacity, route, and type.
+     * Should meet the specification of
+     * PublicTransport.PublicTransport(int, int, Route), as well as extending it
+     * to include the following:
+     * If the given ferryType is null or empty, the string "CityCat" should be
+     * stored instead. If the ferry type contains any newline characters ('\n')
+     * or carriage returns ('\r'), they should be removed from the string before
+     * it is stored.
+     * @param id The identifying number of the ferry.
+     * @param capacity The maximum capacity of the ferry.
+     * @param route The route this ferry is on.
+     * @param ferryType The type of the ferry (e.g. CityCat).
+     */
+    public Ferry(int id, int capacity, Route route, String ferryType) {
+        super(id, capacity, route);
+        if (ferryType == null || ferryType == "") {
+            this.ferryType = "CityCat";
+        } else {
+            // Removes \n  characters by replacing all instances of them with an
+            // empty string, then does the same for \r
+            this.ferryType = ferryType.replace("\n", "").replace("\r", "");
+        }
+    }
+
+    /**
+     * Returns the type of this ferry.
+     * @return The type of ferry.
+     */
+    public String getFerryType() {
+        return this.ferryType;
+    }
+}

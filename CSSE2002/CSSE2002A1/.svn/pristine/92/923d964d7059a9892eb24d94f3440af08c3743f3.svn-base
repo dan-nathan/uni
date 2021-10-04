@@ -1,0 +1,97 @@
+package vehicles;
+
+import java.util.List;
+
+import exceptions.OverCapacityException;
+import passengers.Passenger;
+import routes.Route;
+import stops.Stop;
+
+import java.util.List;
+
+public class PublicTransport extends Object {
+    private int id;
+    private int capacity;
+    private Route route;
+    private Stop location;
+    private List<Passenger> currentPassengers;
+
+    public PublicTransport(int id, int capacity, Route route) {
+        this.id = id;
+        this.capacity = capacity;
+        this.route = route;
+        this.location = route.getStartStop();
+        this.currentPassengers = null;
+    }
+
+    public Route getRoute() {
+        return this.route;
+    }
+
+    public int getId() {
+        return this.id;
+    }
+
+    public Stop getCurrentStop() {
+        return this.location;
+    }
+
+    public int getPassengerCount() {
+        return this.currentPassengers.size();
+    }
+
+    public int getCapacity() {
+        return this.capacity;
+    }
+
+    public String getType() {
+        return this.route.getType()
+    }
+
+    public List<Passenger> getPassengers() {
+        return this.currentPassengers;
+    }
+
+    public void addPassenger(Passenger passenger) throws OverCapacityException {
+        if (passenger == null) {
+            return;
+        }
+        if (this.currentPassengers.size() >= this.capacity) {
+            throw new OverCapacityException();
+        }
+        this.currentPassengers.add(passenger);
+    }
+
+    public boolean removePassenger(Passenger passenger) {
+        if (passenger == null) {
+            return false;
+        }
+        boolean onBoard = false;
+        for (Passenger i : this.currentPassengers) {
+            if (i == passenger) {
+                onBoard = true;
+                break;
+            }
+        }
+        if (!onBoard) {
+            return false;
+        }
+        this.currentPassengers.remove(passenger);
+        return true;
+    }
+
+    public List<Passenger> unload() {
+        List<Passenger> tempList = this.currentPassengers;
+        this.currentPassengers = null;
+        return tempList;
+    }
+
+    public void travelTo(Stop stop) {
+        //TODO
+    }
+
+    @Override
+    public String toString() {
+        return null;
+    }
+}

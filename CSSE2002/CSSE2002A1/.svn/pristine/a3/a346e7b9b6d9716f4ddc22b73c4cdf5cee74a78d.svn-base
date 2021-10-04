@@ -1,0 +1,28 @@
+public class ConsessionPassenger extends Passenger {
+    public int consessionId;
+    public boolean valid;
+
+    public void ConsessionPassenger(String name, Stop destination, int consessionId) {
+        super(name, destination);
+        this.consessionId = consessionId;
+    }
+
+    public void expire() {
+        this.valid = false;
+    }
+
+    public void renew(int newId) {
+        this.valid = true;
+        this.consessionId = newId;
+    }
+
+    public boolean isValid() {
+        if (valid == false || Integer.toString(consessionId).length() < 6 || consessionId < 0) {
+            return false;
+        }
+        if (Integer.toString(consessionId).substring(0, 2) == "42") {
+            return true;
+        }
+        return false;
+    }
+}

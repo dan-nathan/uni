@@ -1,0 +1,50 @@
+package network;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
+import static org.junit.Assert.*;
+
+public class NetworkTest {
+
+    @Before
+    public void setUp() throws Exception {
+    }
+
+    @After
+    public void tearDown() throws Exception {
+    }
+
+    @Test
+    public void addRoute() {
+    }
+
+    @Test
+    public void addStop() {
+    }
+
+    @Test
+    public void addStops() {
+    }
+
+    @Test
+    public void addVehicle() {
+    }
+
+    @Test
+    public void getRoutes() {
+    }
+
+    @Test
+    public void getStops() {
+    }
+
+    @Test
+    public void getVehicles() {
+    }
+
+    @Test
+    public void save() {
+    }
+}

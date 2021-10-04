@@ -1,0 +1,12 @@
+package routes;
+
+public class FerryRoute extends Route {
+
+    public FerryRoute(String name, int routeNumber) {
+        super(name, routeNumber);
+    }
+
+    public String getType() {
+        return "ferry";
+    }
+}

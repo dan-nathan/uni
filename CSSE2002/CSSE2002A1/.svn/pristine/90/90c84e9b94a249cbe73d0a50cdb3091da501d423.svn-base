@@ -1,0 +1,133 @@
+package routes;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import exceptions.EmptyRouteException;
+import exceptions.IncompatibleTypeException;
+import stops.Stop;
+import vehicles.PublicTransport;
+
+public abstract class Route extends Object {
+
+    // The route's name
+    private String name;
+
+    // The route's route number
+    private int routeNumber;
+
+    // The stops on the route
+    private List<Stop> stops;
+
+    // The vehicles traversing the route
+    private List<PublicTransport> vehicles;
+
+    public Route(String name, int routeNumber) {
+        if (name == null) {
+            this.name = "";
+        } else {
+            // Removes \n and \r characters by replacing all instances of them
+            // with an empty string
+            this.name = name.replace("\n", "").replace("/r", "");
+        }
+        this.routeNumber = routeNumber;
+        this.stops = new ArrayList<>();
+        this.vehicles = new ArrayList<>();
+    }
+
+    public String getName() {
+        return this.name;
+    }
+
+    public int getRouteNumber() {
+        return this.routeNumber;
+    }
+
+    public List<Stop> getStopsOnRoute() {
+        return this.stops;
+    }
+
+    public Stop getStartStop() throws EmptyRouteException {
+        // If the list of stops is empty
+        if (this.stops.size() == 0) {
+            throw new EmptyRouteException();
+        }
+        return this.stops.get(0);
+    }
+
+    public void addStop(Stop stop) {
+        if (stop == null) {
+            return;
+        }
+        // The current final element of stops
+        Stop currentLastStop = this.stops.get(this.stops.size() - 1);
+        // Adds the stop to the route
+        this.stops.add(stop);
+        // Adds the stop and currently last stop as neighbours
+        stop.addNeighbouringStop(currentLastStop);
+        currentLastStop.addNeighbouringStop(stop);
+        // Adds this route to the stop
+        stop.addRoute(this);
+    }
+
+    public List<PublicTransport> getTransports() {
+        return vehicles;
+    }
+
+    public void addTransport(PublicTransport transport)
+            throws EmptyRouteException, IncompatibleTypeException {
+        if (transport == null) {
+            return;
+        }
+        // Checks if the route is empty
+        if (this.stops.size() == 0) {
+            throw new EmptyRouteException();
+        }
+        // Checks if the route and transport are of the same type
+        if (this.getType() != transport.getType()) {
+            throw new IncompatibleTypeException();
+        }
+    }
+
+    @Override
+    public boolean equals(Object other) {
+        if (!(other instanceof Route)) {
+            // If the other object is not a route, they cannot be equal
+            return false;
+        }
+        // Checks to see if the names and route numbers match
+        if (this.name == ((Route) other).getName()
+                && this.routeNumber == ((Route) other).getRouteNumber()) {
+            return true;
+        }
+        return false;
+    }
+
+    @Override
+    public int hashCode() {
+        // Prime numbers used to minimise chance of different routes having the
+        // same hash code
+        return 13 * this.name.hashCode() + 31 * this.routeNumber;
+    }
+
+    public abstract String getType();
+
+    @Override
+    public String toString() {
+        // Creates a string to return, and adds information to the start
+        String returnString = this.getType() + "," + this.name + ","
+                + this.routeNumber + ":";
+        // Loop is used for stops as different routes can have different numbers
+        // of stops
+        for (Stop stop : this.stops) {
+            returnString += stop.getName();
+            // Checks if the stop is the index of the stop in the list corresponds
+            // with the last in the list. The | character is only added if this
+            // is not the case
+            if (this.stops.indexOf(stop) != this.stops.size() - 1) {
+                returnString += "|";
+            }
+        }
+        return returnString;
+    }
+}

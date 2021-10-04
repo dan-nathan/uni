@@ -1,0 +1,21 @@
+package routes;
+
+public class TrainRoute extends Route {
+
+    /**
+     * Constructor to initialise a train route
+     * @param name the name of the route
+     * @param routeNumber the route number
+     */
+    public TrainRoute(String name, int routeNumber) {
+        super(name, routeNumber);
+    }
+
+    /**
+     * Returns the type of route this is (train)
+     * @return "train"
+     */
+    public String getType() {
+        return "train";
+    }
+}

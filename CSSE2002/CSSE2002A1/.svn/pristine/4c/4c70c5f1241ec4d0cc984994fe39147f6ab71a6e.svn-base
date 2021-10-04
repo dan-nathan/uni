@@ -1,0 +1,21 @@
+package routes;
+
+public class FerryRoute extends Route {
+
+    /**
+     * Constructor to initialise a ferry route
+     * @param name the name of the route
+     * @param routeNumber the route number
+     */
+    public FerryRoute(String name, int routeNumber) {
+        super(name, routeNumber);
+    }
+
+    /**
+     * Returns the type of route (ferry) this is
+     * @return "ferry"
+     */
+    public String getType() {
+        return "ferry";
+    }
+}

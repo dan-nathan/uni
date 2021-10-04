@@ -1,0 +1,32 @@
+package passengers;
+
+import stops.Stop;
+
+public class ConcessionPassenger extends Passenger {
+    private int concessionId;
+    private boolean valid;
+
+    public ConcessionPassenger(String name, Stop destination, int concessionId) {
+        super(name, destination);
+        this.concessionId = concessionId;
+    }
+
+    public void expire() {
+        this.valid = false;
+    }
+
+    public void renew(int newId) {
+        this.valid = true;
+        this.concessionId = newId;
+    }
+
+    public boolean isValid() {
+        if (valid == false || Integer.toString(concessionId).length() < 6 || concessionId < 0) {
+            return false;
+        }
+        if (Integer.toString(concessionId).substring(0, 2) == "42") {
+            return true;
+        }
+        return false;
+    }
+}

@@ -1,0 +1,186 @@
+package vehicles;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import exceptions.EmptyRouteException;
+import exceptions.OverCapacityException;
+import passengers.Passenger;
+import routes.Route;
+import stops.Stop;
+
+import java.util.List;
+
+public class PublicTransport extends Object {
+
+    // The ID number of the vehicle
+    private int id;
+
+    // The maximum number of passengers the vehicle can have at any given time
+    private int capacity;
+
+    // The route the vehicle is on
+    private Route route;
+
+    // The stop the vehicle is at
+    private Stop location;
+
+    // The passengers on board the vehicle
+    private List<Passenger> currentPassengers;
+
+    /**
+     * Constructor to initialise a vehicle
+     * @param id the ID number of the vehicle
+     * @param capacity the maximum number of passengers the vehicle can have at any given time
+     * @param route the route the vehicle is on
+     */
+    public PublicTransport(int id, int capacity, Route route) {
+        this.id = id;
+        this.capacity = capacity;
+        this.route = route;
+        this.currentPassengers = new ArrayList<>();
+        try {
+            this.location = route.getStartStop();
+        } catch (EmptyRouteException e) {
+        }
+    }
+
+    /**
+     * Returns the route the vehicle is on
+     * @return the route the vehicle is on
+     */
+    public Route getRoute() {
+        return this.route;
+    }
+
+    /**
+     * Returns the ID of the vehicle
+     * @return the ID of the vehicle
+     */
+    public int getId() {
+        return this.id;
+    }
+
+    /**
+     * Returns the stop the vehicle is at
+     * @return the stop the vehicle is at
+     */
+    public Stop getCurrentStop() {
+        return this.location;
+    }
+
+    /**
+     * Returns the number of passengers on board the vehicle
+     * @return the number of passengers on board the vehicle
+     */
+    public int getPassengerCount() {
+        // Returns number of elements in passengers list
+        return this.currentPassengers.size();
+    }
+
+    /**
+     * Returns the capacity of the vehicle
+     * @return the capacity of the vehicle
+     */
+    public int getCapacity() {
+        return this.capacity;
+    }
+
+    /**
+     * Returns the type of vehicle
+     * @return the type of vehicle
+     */
+    public String getType() {
+        // Vehicle type is the same as route type
+        return this.route.getType();
+    }
+
+    /**
+     * Returns a list of passengers on board the vehicle
+     * @return a list of passengers on board the vehicle
+     */
+    public List<Passenger> getPassengers() {
+        return this.currentPassengers;
+    }
+
+    /**
+     * Adds a passenger to the vehicle
+     * @param passenger the passenger to be added
+     * @throws OverCapacityException
+     */
+    public void addPassenger(Passenger passenger) throws OverCapacityException {
+        if (passenger == null) {
+            return;
+        }
+        // If the vehicle is at or over capacity
+        if (this.currentPassengers.size() >= this.capacity) {
+            throw new OverCapacityException();
+        }
+        this.currentPassengers.add(passenger);
+    }
+
+    /**
+     * Removes a passenger from the vehicle and returns true if they are on the
+     * vehicle, otherwise returns false
+     * @param passenger the passenger to be removed
+     * @return whether or not the passenger was successfully removed
+     */
+    public boolean removePassenger(Passenger passenger) {
+        if (passenger == null) {
+            // Remove fails if passenger is null
+            return false;
+        }
+        boolean onBoard = false;
+        // Loops through passengers if the relevant passenger is on board
+        for (Passenger i : this.currentPassengers) {
+            if (i == passenger) {
+                onBoard = true;
+                break;
+            }
+        }
+        if (!onBoard) {
+            // Remove fails if passenger isn't on board
+            return false;
+        }
+        this.currentPassengers.remove(passenger);
+        return true;
+    }
+
+    /**
+     * Removes all passengers from the vehicle, and returns a list of them
+     * @return a list of passengers removed
+     */
+    public List<Passenger> unload() {
+        List<Passenger> tempList = this.currentPassengers;
+        this.currentPassengers = new ArrayList<Passenger>(); //Will this cause memory leak?
+        return tempList;
+    }
+
+    /**
+     * Travels to a stop if the stop is valid
+     * @param stop the stop to be traveled to
+     */
+    public void travelTo(Stop stop) {
+        if (stop == null) {
+            return;
+        }
+        boolean inRoute = false;
+        // Checks if the desired stop is on the vehicle's route
+        for (Stop location : this.route.getStopsOnRoute()) {
+            if (stop == location) {
+                inRoute = true;
+                break;
+            }
+        }
+        if (inRoute) {
+            // Updates location of vehicle to new stop
+            this.location = stop;
+        }
+    }
+
+    @Override
+    public String toString() {
+        // Concatenates info into desired format
+        return this.getType() + " number " + this.id + " (" + this.capacity + ") on route" + this.route;
+    }
+}

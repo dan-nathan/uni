@@ -1,0 +1,234 @@
+/*
+Questions for tutors:
+1. Does indentation count towards 80 characters per line limit
+2. Should get methods be used to access variables in the same class
+3. Is my hash code implementation good
+4. Whitespace at beginning and end of class
+5. Is LEADING_DIGITS in ConcessionPassenger appropriate, and defined in the right place
+6. Should else be used if return is in if statement
+7. When returning an object from a method, should I return the object or a copy of it
+8. Will PublicTransport.unload cause a memory leak
+ */
+
+package stops;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
+import exceptions.NoNameException;
+import passengers.Passenger;
+import routes.Route;
+import vehicles.PublicTransport;
+
+public class Stop extends Object {
+
+    // The name of the stop
+    private String name;
+
+    // The x and y coordinates of the stop
+    private int x;
+    private int y;
+
+    // The routes that go through the stop
+    private List<Route> routes;
+
+    // The stops that are adjacent to this one on a route
+    private List<Stop> neighbouringStops;
+
+    // The passengers waiting at the stop
+    private List<Passenger> passengers;
+
+    // The vehicles stopped at the stop
+    private List<PublicTransport> vehicles;
+
+    public Stop(String name, int x, int y) {
+        if (name == null) {
+            throw new NoNameException();
+        }
+        this.name = name;
+        this.x = x;
+        this.y = y;
+        this.routes = new ArrayList<>();
+        this.neighbouringStops = new ArrayList<>();
+        this.passengers = new ArrayList<>();
+        this.vehicles = new ArrayList<>();
+    }
+
+    public String getName() {
+        return this.name;
+    }
+
+    public int getX() {
+        return this.x;
+    }
+
+    public int getY() {
+        return this.y;
+    }
+
+    public void addRoute(Route route) {
+        if (route != null) {
+            this.routes.add(route);
+        }
+    }
+
+    public List<Route> getRoutes() {
+        return this.routes;
+    }
+
+    public void addNeighbouringStop(Stop neighbour) {
+        if (neighbour != null) {
+            boolean valid = true;
+            // For loop to check if neighbour is already a neighbouring stop
+            for (Stop stop : this.neighbouringStops) {
+                if (stop == neighbour) {
+                    valid = false;
+                    break;
+                }
+            }
+            if (valid) {
+                this.neighbouringStops.add(neighbour);
+            }
+        }
+    }
+
+    public List<Stop> getNeighbours() {
+        return this.neighbouringStops;
+    }
+
+    public void addPassenger(Passenger passenger) {
+        if (passenger != null) {
+            this.passengers.add(passenger);
+        }
+    }
+
+    public List<Passenger> getWaitingPassengers() {
+        return passengers;
+    }
+
+    public boolean isAtStop(PublicTransport transport) {
+        boolean found = false;
+        // Iterates through the vehicles at the stop to see if any match
+        for (PublicTransport vehicle: this.vehicles) {
+            if (transport == vehicle) {
+                found = true;
+                break;
+            }
+        }
+        return found;
+    }
+
+    public List<PublicTransport> getVehicles() {
+        return this.vehicles;
+    }
+
+    public void transportArrive(PublicTransport transport) {
+        if (transport == null) {
+            return;
+        }
+        boolean alreadyStopped = false;
+        // Check if vehicle is already at the stop
+        for (PublicTransport vehicle : this.vehicles) {
+            if (vehicle == transport) {
+                alreadyStopped = true;
+                break;
+            }
+        }
+        if (!alreadyStopped) {
+            // Sets the location of the passengers of the vehicle to this stop
+            for (Passenger passenger : transport.getPassengers()) {
+                passenger.setLocation(this);
+            }
+            // Removes passengers from vehicle
+            transport.unload();
+            // Records this stop as location of vehicle
+            vehicles.add(transport);
+        }
+    }
+
+    public void transportDepart(PublicTransport transport, Stop nextStop) {
+        if (transport == null || nextStop == null) {
+            // Does nothing if either input is null
+            return;
+        }
+        boolean currentlyStopped = false;
+        // Checks if the vehicle is actually at the stop
+        for (PublicTransport vehicle : this.vehicles) {
+            if (vehicle == transport) {
+                currentlyStopped = true;
+                break;
+            }
+        }
+        if (currentlyStopped) {
+            // Removes vehicle from the list of vehicles at this stop
+            this.vehicles.remove(transport);
+            // Moves the vehicle to the next stop
+            transport.travelTo(nextStop);
+        }
+    }
+
+    public int distanceTo(Stop stop) {
+        if (stop == null) {
+            // Base case
+            return -1;
+        }
+        // Uses absolute value to return the sum of the distances in each direction
+        return Math.abs(this.x - stop.x) + Math.abs(this.y - stop.y);
+    }
+
+    // For comparing routes in equals method
+    private Set<Route> getNonDuplicateRoutes() {
+        Set<Route> tempSet = new TreeSet<>();
+        // Loops through the routes associated with this stop
+        for (Route route : this.routes) {
+            boolean duplicate = false;
+            // Checks route against all of the routes already added to tempSet
+            for (Route tempSetRoutes : tempSet) {
+                if (route == tempSetRoutes) {
+                    // Marks the route as a duplicate
+                    duplicate = true;
+                    break;
+                }
+            }
+            // If the route is not already in tempSet
+            if (!duplicate) {
+                tempSet.add(route);
+            }
+        }
+        return tempSet;
+    }
+
+    @Override
+    public boolean equals(Object other) {
+        // Cannot be equal if the other object is not a stop
+        if (!(other instanceof Stop)) {
+            return false;
+        }
+        // Returns true if all relevant fields are equal, and false if not
+        return this.name.equals(((Stop) other).getName())
+                && this.x == ((Stop) other).getX()
+                && this.y == ((Stop) other).getY()
+                && this.getNonDuplicateRoutes().equals(((Stop) other).getNonDuplicateRoutes());
+    }
+
+    @Override
+    public int hashCode() {
+        // Prime numbers used to minimise chance of different routes having the
+        // same hash code
+        int result = 7 * this.name.hashCode() + 17 * this.x + 29 * this.y;
+        for (Route route : this.getNonDuplicateRoutes()) {
+            // All route number hash codes are multiplied by this same number,
+            // as order doesn't matter in the equals function
+            result += 41 * route.hashCode();
+        }
+        return result;
+    }
+
+    @Override
+    public String toString() {
+        // Concatenates info into desired format
+        return this.name + ":" + this.x + ":" + this.y;
+    }
+
+}

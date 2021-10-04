@@ -1,0 +1,22 @@
+package vehicles;
+
+import passengers.Passenger;
+import routes.Route;
+import stops.Stop;
+
+import java.util.List;
+
+public class Ferry extends PublicTransport {
+
+    // The type of ferry that the ferry is
+    private String ferryType;
+
+    public Ferry(int id, int capacity, Route route, String ferryType) {
+        super(id, capacity, route);
+        this.ferryType = ferryType;
+    }
+
+    public String getFerryType() {
+        return this.ferryType;
+    }
+}

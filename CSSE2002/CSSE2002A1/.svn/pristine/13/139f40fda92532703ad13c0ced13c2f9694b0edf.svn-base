@@ -1,0 +1,130 @@
+package stops;
+
+import java.util.List;
+import exceptions.NoNameException;
+import passengers.Passenger;
+import routes.Route;
+import vehicles.PublicTransport;
+
+public class Stop extends Object {
+    private String name;
+    private int x;
+    private int y;
+    private List<Route> routes;
+    private List<Stop> neighbouringStops;
+    private List<Passenger> passengers;
+    private List<PublicTransport> vehicles;
+
+    public Stop(String name, int x, int y) {
+        if (name == null) {
+            throw new NoNameException();
+        }
+        this.name = name;
+        this.x = x;
+        this.y = y;
+    }
+
+    public String getName() {
+        return this.name;
+    }
+
+    public int getX() {
+        return this.x;
+    }
+
+    public int getY() {
+        return this.y;
+    }
+
+    public void addRoute(Route route) {
+        if (route != null) {
+            this.routes.add(route);
+        }
+    }
+
+    public List<Route> getRoutes() {
+        return this.routes;
+    }
+
+    public void addNeighbouringStop(Stop neighbour) {
+        if (neighbour != null) {
+            boolean valid = true;
+            for (Stop stop : this.neighbouringStops) {
+                if (stop == neighbour) {
+                    valid = false;
+                    break;
+                }
+            }
+            if (valid) {
+                this.neighbouringStops.add(neighbour);
+            }
+        }
+    }
+
+    public List<Stop> getNeighbours() {
+        return this.neighbouringStops;
+    }
+
+    public void addPassenger(Passenger passenger) {
+        if (passenger != null) {
+            this.passengers.add(passenger);
+        }
+    }
+
+    public List<Passenger> getWaitingPassengers() {
+        return passengers;
+    }
+
+    public boolean isAtStop(PublicTransport transport) {
+        boolean found = false;
+        for (PublicTransport vehicle: this.vehicles) {
+            if (transport == vehicle) {
+                found = true;
+                break;
+            }
+        }
+        return found;
+    }
+
+    public List<PublicTransport> getVehicles() {
+        return this.vehicles;
+    }
+
+    public void transportArrive(PublicTransport transport) {
+
+    }
+
+    public void transportDepart(PublicTransport transport) {
+        //TODO
+    }
+
+    public int distanceTo(Stop stop) {
+        if (stop == null) {
+            return -1;
+        }
+        return Math.abs(this.x - stop.x) + Math.abs(this.y - stop.y);
+    }
+
+    @Override
+    public boolean equals(Object other) {
+        if (!(other instanceof Stop)) {
+            return false;
+        }
+        if (this.name == (Stop) other.name && this.x == (Stop) other.x && this.y == (Stop) other.y) {
+            //TODO add check for routes
+            return true;
+        }
+        return false;
+    }
+
+    @Override
+    public int hashCode() {
+
+    }
+
+    @Override
+    public String toString() {
+        return this.name + ":" + this.x + ":" + this.y;
+    }
+
+}

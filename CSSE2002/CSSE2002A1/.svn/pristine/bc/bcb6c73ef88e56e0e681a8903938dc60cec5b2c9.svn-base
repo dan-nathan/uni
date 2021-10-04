@@ -1,0 +1,33 @@
+package vehicles;
+
+import passengers.Passenger;
+import routes.Route;
+import stops.Stop;
+
+import java.util.List;
+
+public class Train extends PublicTransport {
+
+    // The number of carriages the train has
+    private int carriageCount;
+
+    /**
+     * Constructor to initialise a train
+     * @param id the ID number of the train
+     * @param capacity the capacity of the train
+     * @param route the train's route
+     * @param carriageCount the number of carriages the train has
+     */
+    public Train(int id, int capacity, Route route, int carriageCount) {
+        super(id, capacity, route);
+        this.carriageCount = carriageCount;
+    }
+
+    /**
+     * Returns the number of carriages the train has
+     * @return the number of carriages the train has
+     */
+    public int getCarriageCount() {
+        return this.carriageCount;
+    }
+}

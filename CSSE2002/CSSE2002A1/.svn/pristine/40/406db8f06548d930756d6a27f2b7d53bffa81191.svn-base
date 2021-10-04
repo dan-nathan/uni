@@ -1,0 +1,22 @@
+package vehicles;
+
+import passengers.Passenger;
+import routes.Route;
+import stops.Stop;
+
+import java.util.List;
+
+public class Bus extends PublicTransport {
+
+    // The registration number of the bus
+    private String registrationNumber;
+
+    public Bus(int id, int capacity, Route route, String registrationNumber) {
+        super(id, capacity, route);
+        this.registrationNumber = registrationNumber;
+    }
+
+    public String getRegistrationNumber() {
+        return this.registrationNumber;
+    }
+}

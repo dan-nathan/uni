@@ -1,0 +1,21 @@
+package routes;
+
+public class BusRoute extends Route {
+
+    /**
+     * Constructor to initialise a bus route
+     * @param name the name of the route
+     * @param routeNumber the route's number
+     */
+    public BusRoute(String name, int routeNumber) {
+        super(name, routeNumber);
+    }
+
+    /**
+     * Returns the type of route this is (bus)
+     * @return "bus"
+     */
+    public String getType() {
+        return "bus";
+    }
+}

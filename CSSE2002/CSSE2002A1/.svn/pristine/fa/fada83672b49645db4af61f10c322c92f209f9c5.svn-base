@@ -1,0 +1,106 @@
+package routes;
+
+import java.util.List;
+
+import exceptions.EmptyRouteException;
+import exceptions.IncompatibleTypeException;
+import passengers.Passenger;
+import stops.Stop;
+import vehicles.PublicTransport;
+
+public abstract class Route extends Object {
+    private String name;
+    private int routeNumber;
+    private List<Stop> stops;
+    private List<PublicTransport> vehicles;
+
+    public Route(String name, int routeNumber) {
+        if (name == null) {
+            this.name = "";
+        } else {
+            this.name = name.replace("\n", "").replace("/r", "");
+        }
+        this.routeNumber = routeNumber;
+        this.stops = null;
+        this.vehicles = null;
+    }
+
+    public String getName() {
+        return this.name;
+    }
+
+    public int getRouteNumber() {
+        return this.routeNumber;
+    }
+
+    public List<Stop> getStopsOnRoute() {
+        return this.stops;
+    }
+
+    public Stop getStartStop() throws EmptyRouteException {
+        if (this.stops.size() == 0) {
+            throw new EmptyRouteException();
+        }
+        return this.stops.get(0);
+    }
+
+    public void addStop(Stop stop) {
+        if (stop == null) {
+            return;
+        }
+        // The current final element of stops
+        Stop currentLastStop = this.stops.get(this.stops.size() - 1);
+        this.stops.add(stop);
+        stop.addNeighbouringStop(currentLastStop);
+        currentLastStop.addNeighbouringStop(stop);
+        stop.addRoute(this);
+    }
+
+    public List<PublicTransport> getTransports() {
+        return vehicles;
+    }
+
+    public void addTransport(PublicTransport transport) throws EmptyRouteException, IncompatibleTypeException {
+        if (transport == null) {
+            return;
+        }
+        if (this.stops.size() == 0) {
+            throw new EmptyRouteException();
+        }
+        //TODO implement IncompatibleTypeException
+    }
+
+    @Override
+    public boolean equals(Object other) {
+        if (!(other instanceof Route)) {
+            return false;
+        }
+        if (this.name == (Route) other.name && this.routeNumber == (Route) other.routeNumber) {
+            return true;
+        }
+        return false;
+    }
+
+    @Override
+    public int hashCode() {
+        return 13*this.name.hashCode() + 17*this.routeNumber;
+        //TODO look at this
+    }
+
+    public abstract String getType() {
+        return null;
+        //TODO
+    }
+
+    @Override
+    public String toString() {
+        String returnString = this.getType() + "," + this.name + "," + this.routeNumber + ":";
+        for (Stop stop : this.stops) {
+            returnString += stop.getName();
+            if (this.stops.indexOf(stop) != this.stops.size() - 1) {
+                returnString += "|";
+            }
+        }
+        return returnString;
+    }
+}
