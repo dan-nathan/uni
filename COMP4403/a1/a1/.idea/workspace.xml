@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a68762e1-0126-4030-9da2-bee4073e7b64" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1Z0ZV9PB76eYUqIzBR8127hF61k" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.Test PL0">
+    <configuration name="Run PL0" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="pl0.PL0_RD" />
+      <module name="a1" />
+      <option name="PROGRAM_PARAMETERS" value="$FilePath$" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test PL0" type="JUnit" factoryName="JUnit">
+      <module name="a1" />
+      <option name="PACKAGE_NAME" value="pl0" />
+      <option name="MAIN_CLASS_NAME" value="pl0.Test_RD" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_RD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="a1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl0.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl0" />
+      <option name="MAIN_CLASS_NAME" value="pl0.Test_RD" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="[test-pgm\test-do-gcd-errx.pl0]" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Run PL0" />
+      <item itemvalue="JUnit.Test PL0" />
+      <item itemvalue="JUnit.Test_RD" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Test_RD" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a68762e1-0126-4030-9da2-bee4073e7b64" name="Default Changelist" comment="" />
+      <created>1583977992470</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583977992470</updated>
+      <workItem from="1585874839874" duration="4817000" />
+      <workItem from="1585971615318" duration="34297000" />
+      <workItem from="1586435485652" duration="8000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="718" y="392" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583978125675">
+      <screen x="45" y="23" width="2515" height="1417" />
+    </state>
+    <state x="718" y="392" key="#com.intellij.execution.impl.EditConfigurationsDialog/45.23.2515.1417@45.23.2515.1417" timestamp="1583978125675" />
+    <state x="795" y="123" width="919" height="1217" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1583978186818">
+      <screen x="45" y="23" width="2515" height="1417" />
+    </state>
+    <state x="795" y="123" width="919" height="1217" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/45.23.2515.1417@45.23.2515.1417" timestamp="1583978186818" />
+    <state x="991" y="521" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1583978111603">
+      <screen x="45" y="23" width="2515" height="1417" />
+    </state>
+    <state x="991" y="521" key="#com.intellij.ide.util.TreeClassChooserDialog/45.23.2515.1417@45.23.2515.1417" timestamp="1583978111603" />
+    <state x="991" y="484" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584050191645">
+      <screen x="45" y="23" width="2515" height="1417" />
+    </state>
+    <state x="991" y="484" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/45.23.2515.1417@45.23.2515.1417" timestamp="1584050191645" />
+    <state width="1075" height="408" key="GridCell.Tab.0.bottom" timestamp="1584053975642">
+      <screen x="45" y="23" width="2515" height="1417" />
+    </state>
+    <state width="1075" height="408" key="GridCell.Tab.0.bottom/44.23.2516.1417@44.23.2516.1417" timestamp="1583992473547" />
+    <state width="1075" height="408" key="GridCell.Tab.0.bottom/45.23.2515.1417@45.23.2515.1417" timestamp="1584053975642" />
+    <state width="1075" height="408" key="GridCell.Tab.0.center" timestamp="1584053975641">
+      <screen x="45" y="23" width="2515" height="1417" />
+    </state>
+    <state width="1075" height="408" key="GridCell.Tab.0.center/44.23.2516.1417@44.23.2516.1417" timestamp="1583992473546" />
+    <state width="1075" height="408" key="GridCell.Tab.0.center/45.23.2515.1417@45.23.2515.1417" timestamp="1584053975641" />
+    <state width="1075" height="408" key="GridCell.Tab.0.left" timestamp="1584053975641">
+      <screen x="45" y="23" width="2515" height="1417" />
+    </state>
+    <state width="1075" height="408" key="GridCell.Tab.0.left/44.23.2516.1417@44.23.2516.1417" timestamp="1583992473546" />
+    <state width="1075" height="408" key="GridCell.Tab.0.left/45.23.2515.1417@45.23.2515.1417" timestamp="1584053975641" />
+    <state width="1075" height="408" key="GridCell.Tab.0.right" timestamp="1584053975642">
+      <screen x="45" y="23" width="2515" height="1417" />
+    </state>
+    <state width="1075" height="408" key="GridCell.Tab.0.right/44.23.2516.1417@44.23.2516.1417" timestamp="1583992473546" />
+    <state width="1075" height="408" key="GridCell.Tab.0.right/45.23.2515.1417@45.23.2515.1417" timestamp="1584053975642" />
+    <state x="741" y="312" key="SettingsEditor" timestamp="1584050882358">
+      <screen x="45" y="23" width="2515" height="1417" />
+    </state>
+    <state x="741" y="312" key="SettingsEditor/45.23.2515.1417@45.23.2515.1417" timestamp="1584050882358" />
+    <state x="965" y="631" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1583978039147">
+      <screen x="45" y="23" width="2515" height="1417" />
+    </state>
+    <state x="965" y="631" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/45.23.2515.1417@45.23.2515.1417" timestamp="1583978039147" />
+  </component>
+  <component name="simpleUML.UMLToolWindowPlugin">
+    <General>
+      <option name="birdViewUpdateDelay" value="2000" />
+      <option name="defaultFileLocation" value="file://$PROJECT_DIR$/.." />
+    </General>
+    <Classdiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="defaultFieldsExpanded" value="false" />
+      <option name="defaultContructorsExpanded" value="false" />
+      <option name="defaultMethodsExpanded" value="false" />
+      <option name="showParameters" value="true" />
+      <option name="showTooltip" value="true" />
+      <option name="showReturnValues" value="true" />
+      <option name="longModifier" value="true" />
+      <option name="implementsBehaviour" value="1" />
+      <option name="extendsBehaviour" value="1" />
+      <option name="compartmentBehaviour" value="1" />
+      <option name="interfaceBackgroundColor" value="-6494306" />
+      <option name="abstractClassBackgroundColor" value="-1580132" />
+      <option name="classBackgroundColor" value="-6508057" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="quickSourceLinkColor" value="-16776961" />
+      <option name="quickDiagramLinkColor" value="-8454144" />
+      <option name="drawDecorations" value="false" />
+      <option name="hideFieldList" value="" />
+      <option name="showFieldList" value="" />
+      <option name="hideConstructorList" value="" />
+      <option name="showConstructorList" value="" />
+      <option name="hideMethodList" value="" />
+      <option name="showMethodList" value="" />
+      <option name="minimumFigureSize" value="0,0" />
+    </Classdiagram>
+    <Dependencydiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="0" />
+    </Dependencydiagram>
+    <Packagediagram>
+      <option name="diagramTitleFont" value="SansSerif,0,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="packageBackgroundColor" value="-4144960" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="2" />
+    </Packagediagram>
+  </component>
+</project>

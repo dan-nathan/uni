@@ -1,0 +1,72 @@
+
+Bsquid:S1199"-Extract this nested code block into a method.(İˆĞƒ
+Bsquid:S1199"-Extract this nested code block into a method.(±¬éí
+Bsquid:S1199"-Extract this nested code block into a method.(¦ÉÕ£
+Gsquid:S1199"-Extract this nested code block into a method.(»Àø¿ùÿÿÿÿ
+Gsquid:S1199"-Extract this nested code block into a method.(µÁûËşÿÿÿÿ
+Gsquid:S1199"-Extract this nested code block into a method.(ğ„ôÿÿÿÿÿ
+Gsquid:S1199"-Extract this nested code block into a method.(£ŒÇ•ıÿÿÿÿ
+Bsquid:S1199"-Extract this nested code block into a method.(ÎÌêæ
+Gsquid:S1199"-Extract this nested code block into a method.(óÁã©ûÿÿÿÿ
+Gsquid:S1199"-Extract this nested code block into a method.(¿£Ï¦ûÿÿÿÿ
+Gsquid:S1199"-Extract this nested code block into a method.(·ê¥Ğúÿÿÿÿ
+Asquid:S1199"-Extract this nested code block into a method.(‰ñè4
+Gsquid:S1199"-Extract this nested code block into a method.(µÚÎ¨ÿÿÿÿÿ
+Bsquid:S1199"-Extract this nested code block into a method.(ô¯Ñà
+Bsquid:S1199"-Extract this nested code block into a method.(»ü›û
+Asquid:S1199"-Extract this nested code block into a method.(¿¾®&
+Gsquid:S1199"-Extract this nested code block into a method.(´üÍÒùÿÿÿÿ
+Gsquid:S1199"-Extract this nested code block into a method.(—óì‚ÿÿÿÿÿ
+Bsquid:S1199"-Extract this nested code block into a method.(·Ó÷«
+Gsquid:S1199"-Extract this nested code block into a method.(ß²êñıÿÿÿÿ
+Gsquid:S1199"-Extract this nested code block into a method.(ò¤Ëÿÿÿÿÿ
+Gsquid:S1199"-Extract this nested code block into a method.(üíõùÿÿÿÿ
+Gsquid:S1199"-Extract this nested code block into a method.(Í–õÿÿÿÿÿ
+Bsquid:S1199"-Extract this nested code block into a method.(ÉĞÊÎ
+Bsquid:S1199"-Extract this nested code block into a method.(é‰ª§
+Gsquid:S1199"-Extract this nested code block into a method.(‡«¼øşÿÿÿÿ
+Bsquid:S1199"-Extract this nested code block into a method.(Ï¦Ä‚
+Gsquid:S1199"-Extract this nested code block into a method.(Üİã›ÿÿÿÿÿ
+Bsquid:S1199"-Extract this nested code block into a method.(ù³Æ¹
+Gsquid:S1199"-Extract this nested code block into a method.(’ì­÷üÿÿÿÿ
+Gsquid:S1199"-Extract this nested code block into a method.(üÆÅíúÿÿÿÿ
+Bsquid:S1199"-Extract this nested code block into a method.(Áô«Õ
+Asquid:S1199"-Extract this nested code block into a method.(şûò*
+Gsquid:S1199"-Extract this nested code block into a method.(¡¦†‰ùÿÿÿÿ
+Asquid:S1199"-Extract this nested code block into a method.(•®C
+Gsquid:S1199"-Extract this nested code block into a method.(ª¯ÿüüÿÿÿÿ
+Gsquid:S1199"-Extract this nested code block into a method.(ä¤Âıÿÿÿÿ
+Gsquid:S1199"-Extract this nested code block into a method.(çó‹æıÿÿÿÿ
+Bsquid:S1199"-Extract this nested code block into a method.(Â‘Ñ
+Bsquid:S1199"-Extract this nested code block into a method.(ÚÌó¬
+Gsquid:S1199"-Extract this nested code block into a method.(ÇÜÉçúÿÿÿÿ
+Gsquid:S1199"-Extract this nested code block into a method.(”úœÛûÿÿÿÿ
+Bsquid:S1199"-Extract this nested code block into a method.(×‹½¾
+r
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ
+[squid:S00112"FDefine and throw a dedicated exception instead of using a generic one.(ãŞİ
+ksquid:S1450"VRemove the "zzState" field and declare it as a local variable in the relevant methods.(±çïì
+zsquid:S4144"`Update this method so that its implementation is not identical to "zzUnpackcmap_top" on line 59.(‚…ëåøÿÿÿÿ
+usquid:S4144"`Update this method so that its implementation is not identical to "zzUnpackcmap_top" on line 59.(âÃ¼ 
+tsquid:S4144"`Update this method so that its implementation is not identical to "zzUnpackcmap_top" on line 59.(ª’¼)
+Msquid:S1197"8Move the array designator from the variable to the type.(¹ğÁ
+dsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°Ç‹«
+Tsquid:S1854":Remove this useless assignment to local variable "offset".(¨‚“Äÿÿÿÿÿ
+dsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íë£Ï
+dsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍÆ·‡
+Tsquid:S1854":Remove this useless assignment to local variable "offset".(åáÜÔúÿÿÿÿ
+isquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚…ëåøÿÿÿÿ
+Osquid:S1854":Remove this useless assignment to local variable "offset".(˜òÃ™
+Osquid:S1854":Remove this useless assignment to local variable "offset".(¡÷Ã¨
+Osquid:S1854":Remove this useless assignment to local variable "offset".(æ¤Å
+Rsquid:S1197"8Move the array designator from the variable to the type.(µ»ÃËÿÿÿÿÿ
+Tsquid:S1854":Remove this useless assignment to local variable "offset".(¡í¶ùÿÿÿÿ
+Msquid:S1197"8Move the array designator from the variable to the type.(í‚Ù
+Msquid:S1197"8Move the array designator from the variable to the type.(„î…Õ
+lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 69 to the 15 allowed.(µ©Â“úÿÿÿÿ
+e squid:LabelsShouldNotBeUsedCheck";Refactor the code to remove this label and the need for it.(şİôŠ
+Wsquid:S1479"BReduce the number of non-empty switch cases from 85 to at most 30.(ÿáöô
+;squid:S2129"!Remove this "Integer" constructor(Ü×Èûûÿÿÿÿ
+Zsquid:CallToDeprecatedMethod"/Remove this use of "Integer"; it is deprecated.(Ü×Èûûÿÿÿÿ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ğøªşÿÿÿÿ
+_squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‹Ëã6

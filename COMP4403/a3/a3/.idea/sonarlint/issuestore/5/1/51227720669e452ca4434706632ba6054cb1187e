@@ -1,0 +1,8 @@
+
+wsquid:S00115v"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ΘΦύÿÿÿÿ
+wsquid:S00115v"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ΘΦύÿÿÿÿ
+Wsquid:S1161Π":Add the "@Override" annotation above this method signature(Ò›»΅ÿÿÿÿÿ
+Dsquid:S2388―",Prefix this call to "getType" with "super.".(αμ’ώ
+wsquid:S00115v"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ΘΦύÿÿÿÿ
+Dsquid:S2388―",Prefix this call to "getType" with "super.".(αμ’ώ
+Csquid:S3398"&Move this method into "ConstantEntry".(Π¬³Τώÿÿÿÿ

@@ -1,0 +1,34 @@
+
+hsquid:HiddenFieldCheck°"9Rename "type" which hides the field declared at line 994.(—î‘ıÿÿÿÿ8†’¤¿•.
+Psquid:S1612ö",Replace this lambda with a method reference.(ÍÚúÖûÿÿÿÿ8†’¤¿•.
+dsquid:HiddenFieldCheckÍ":Rename "block" which hides the field declared at line 829.(ê¯¼ø8†’¤¿•.
+gsquid:HiddenFieldCheckÜ"8Rename "exp" which hides the field declared at line 220.(÷§ûšùÿÿÿÿ8†’¤¿•.
+psquid:ModifiersOrderCheckû"EReorder the modifiers to comply with the Java Language Specification.(¯ÔÀşÿÿÿÿ
+wsquid:ModifiersOrderCheckû"EReorder the modifiers to comply with the Java Language Specification.(Ğ¥‰Úÿÿÿÿÿ8†’¤¿•.
+hsquid:HiddenFieldCheckã"?Rename "procEntry" which hides the field declared at line 1113.(äÑüg8†’¤¿•.
+ksquid:ModifiersOrderCheckì"EReorder the modifiers to comply with the Java Language Specification.(ÜÊ§
+isquid:HiddenFieldCheck¯":Rename "block" which hides the field declared at line 829.(–Îªÿÿÿÿÿÿ8†’¤¿•.
+ksquid:ModifiersOrderCheckç"EReorder the modifiers to comply with the Java Language Specification.(©òóÚ
+`squid:HiddenFieldCheckî"8Rename "exp" which hides the field declared at line 220.(îšâÔüÿÿÿÿ
+nsquid:HiddenFieldCheckÈ"?Rename "procEntry" which hides the field declared at line 1113.(÷†Â‡øÿÿÿÿ8†’¤¿•.
+psquid:ModifiersOrderCheck‚"EReorder the modifiers to comply with the Java Language Specification.(ë™ƒ–şÿÿÿÿ
+wsquid:ModifiersOrderCheck‡"EReorder the modifiers to comply with the Java Language Specification.(¹ÊĞ¥úÿÿÿÿ8†’¤¿•.
+Lsquid:S1481Ô"(Remove this unused "loc" local variable.(øÚ¯Åşÿÿÿÿ8––»¿•.
+wsquid:ModifiersOrderCheckŒ"EReorder the modifiers to comply with the Java Language Specification.(ï¿ÁËúÿÿÿÿ8†’¤¿•.
+ksquid:ModifiersOrderCheckñ"EReorder the modifiers to comply with the Java Language Specification.(™Àãì
+psquid:ModifiersOrderCheckˆ"EReorder the modifiers to comply with the Java Language Specification.(£È¸ûÿÿÿÿ
+gsquid:S00119•"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(½àØÕøÿÿÿÿ
+Isquid:S1612İ",Replace this lambda with a method reference.(·©«Èùÿÿÿÿ
+asquid:S00119Ÿ"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(³ÎÅQ
+hsquid:HiddenFieldCheckÖ"9Rename "type" which hides the field declared at line 994.(ª°õúÿÿÿÿ8†’¤¿•.
+rsquid:ModifiersOrderCheck‚"EReorder the modifiers to comply with the Java Language Specification.(ÒşÂè8†’¤¿•.
+csquid:HiddenFieldCheckì"9Rename "proc" which hides the field declared at line 791.(çå¼·8†’¤¿•.
+bsquid:S00119§"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(ÅóÀ‰
+hsquid:HiddenFieldCheck¦"9Rename "proc" which hides the field declared at line 791.(˜¦¤Éûÿÿÿÿ8†’¤¿•.
+csquid:HiddenFieldCheckì"9Rename "type" which hides the field declared at line 994.(“§ú™8†’¤¿•.
+ksquid:ModifiersOrderCheckâ"EReorder the modifiers to comply with the Java Language Specification.(ÉŒİ
+rsquid:ModifiersOrderCheckü"EReorder the modifiers to comply with the Java Language Specification.(¢ÓÔ„8†’¤¿•.
+Lsquid:S1481å"(Remove this unused "loc" local variable.(øÚ¯Åşÿÿÿÿ8š¯Å¿•.
+psquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(®’³ıÿÿÿÿ
+„squid:S1192’"`Define a constant instead of duplicating this literal " already declared in this scope" 4 times.(Ôü Øûÿÿÿÿ8†’¤¿•.
+ksquid:ModifiersOrderCheckö"EReorder the modifiers to comply with the Java Language Specification.(Õïê

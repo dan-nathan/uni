@@ -1,0 +1,9 @@
+type
+  S = [2..4];
+  V = array S of int;
+var
+  vv : V;
+  x : S;
+begin
+	vv[6] := 1  // x undefined - should be out of bounds at run time
+end

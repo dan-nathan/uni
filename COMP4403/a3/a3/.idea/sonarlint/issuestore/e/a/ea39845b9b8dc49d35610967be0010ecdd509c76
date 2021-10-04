@@ -1,0 +1,5 @@
+
+9squid:S1214	""Move constants to a class or enum.(ÅÜ¼ì
+–squid:S1845"zRename field "EQUALS" to prevent any misunderstanding/clash with method "equals" defined in superclass "java.lang.Object".(¯¬ä»ùÿÿÿÿ
+Tsquid:S23865"8Move "terminalNames" to a class and lower its visibility(¥™Íúÿÿÿÿ
+rsquid:S00115&"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¼Ô›

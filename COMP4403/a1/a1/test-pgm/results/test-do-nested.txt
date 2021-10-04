@@ -1,0 +1,12 @@
+Compiling test-do-nested.pl0
+Parsing complete
+Static semantic analysis complete
+Running ...
+9
+3
+6
+3
+3
+
+Terminated
+No errors detected.

@@ -1,0 +1,12 @@
+
+`squid:S2184“"CCast one of the operands of this subtraction operation to a "long".(“ïê†ûÿÿÿÿ
+dsquid:S00112Ô"FDefine and throw a dedicated exception instead of using a generic one.(ĞÒƒòüÿÿÿÿ
+@squid:S3010E"$Remove this assignment of "handler".(ñ®•‘øÿÿÿÿ
+T
+squid:S106_"9Replace this use of System.out or System.err by a logger.(Éÿàùıÿÿÿÿ
+U
+squid:S106è"9Replace this use of System.out or System.err by a logger.(›–íøÿÿÿÿ
+U
+squid:S106¡"9Replace this use of System.out or System.err by a logger.(¾µÜÌûÿÿÿÿ
+bsquid:CommentedOutCodeLineV"<This block of commented-out lines of code should be removed.(±®÷ú
+bsquid:CommentedOutCodeLineh"<This block of commented-out lines of code should be removed.(­¤Æ†

@@ -1,0 +1,8 @@
+type
+  S = {Mon, Tue, Wed, Thu, Fri, Sat, Sun};
+var
+  t : S;
+begin
+  t := pred pred Tue;
+  if t = Sun then write 1 else write 2
+end

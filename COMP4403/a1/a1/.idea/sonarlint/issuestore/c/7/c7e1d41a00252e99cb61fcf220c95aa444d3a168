@@ -1,0 +1,9 @@
+
+hsquid:S1192ë"IDefine a constant instead of duplicating this literal "DoBranch" 4 times.(‡İ€Ø8øû¸”.
+X"squid:SwitchLastCaseIsDefaultCheckŠ""Add a default case to this switch.(Î´®Ï8®ºÎ•.
+vsquid:S3776€"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ìÑÎóûÿÿÿÿ8®ºÎ•.
+osquid:S1301"KReplace this "switch" statement by "if" statements to increase readability.(ŠîÛèùÿÿÿÿ8ôûœŸ”.
+Ysquid:S3518é";Make sure "right" can't be zero before doing this division.(¡¹ò48ôûœŸ”.
+o
+squid:S128Œ"LEnd this switch case with an unconditional break, return or throw statement.(ªëÅŞúÿÿÿÿ8®ºÎ•.
+jsquid:S1301Š"KReplace this "switch" statement by "if" statements to increase readability.(Î´®Ï8®ºÎ•.

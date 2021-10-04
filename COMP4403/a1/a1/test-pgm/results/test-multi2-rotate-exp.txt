@@ -1,0 +1,16 @@
+Compiling test-multi2-rotate-exp.pl0
+Parsing complete
+Static semantic analysis complete
+Running ...
+1
+2
+3
+2
+3
+1
+5
+4
+3
+
+Terminated
+No errors detected.

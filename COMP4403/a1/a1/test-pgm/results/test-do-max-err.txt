@@ -1,0 +1,12 @@
+Compiling test-do-max-err.pl0
+Parsing complete
+Static semantic analysis complete
+Running ...
+     9   do x = y then max := y exit
+******   ^ Fatal: No branch of do loop has a true guard
+PROC <main> : level 1
+	max = unassigned
+	x = 2
+	y = 6
+
+1 error detected.

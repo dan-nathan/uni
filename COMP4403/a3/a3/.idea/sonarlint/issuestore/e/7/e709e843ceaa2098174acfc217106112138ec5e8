@@ -1,0 +1,36 @@
+
+bsquid:CommentedOutCodeLine¯"<This block of commented-out lines of code should be removed.(Ïó¯y
+lsquid:S3008G"URename this field "TRACE_NONE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åÜ‹ð
+gsquid:S1764œ"JCorrect one of the identical sub-expressions on both sides of operator "&"(ëç¸Çûÿÿÿÿ
+Ysquid:S3457…"AFormat specifiers should be used instead of string concatenation.(Ô¥¿
+jsquid:ModifiersOrderCheck""EReorder the modifiers to comply with the Java Language Specification.(ô¡´™
+hsquid:S1301‹"KReplace this "switch" statement by "if" statements to increase readability.(Ž£ˆâùÿÿÿÿ
+=squid:S1170^"!Make this final field static too.(§°À°üÿÿÿÿ
+Gsquid:S1444G"0Make this "public static TRACE_NONE" field final(åÜ‹ð
+4squid:S1643×"Use a StringBuilder instead.(õßú¨
+jsquid:S00117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦çŠ
+‰squid:S1319G"rThe type of the "TRACE_NONE" object should be an interface such as "Set" rather than the implementation "EnumSet".(åÜ‹ð
+|squid:S1149Ç"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(åûÒ¸ûÿÿÿÿ
+gsquid:S1764–"JCorrect one of the identical sub-expressions on both sides of operator "^"(µà˜¼ÿÿÿÿÿ
+Xsquid:S3457•"AFormat specifiers should be used instead of string concatenation.(è×”^
+Ksquid:S1444C"/Make this "public static TRACE_ALL" field final(…íÏÝúÿÿÿÿ
+4squid:S2386G"Make this member "protected".(åÜ‹ð
+osquid:S3776‰"RRefactor this method to reduce its Cognitive Complexity from 60 to the 15 allowed.(Ý‰¾ùùÿÿÿÿ
+psquid:S3008C"TRename this field "TRACE_ALL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…íÏÝúÿÿÿÿ
+hsquid:S1764©"KCorrect one of the identical sub-expressions on both sides of operator "=="(Äã¯Öüÿÿÿÿ
+osquid:S3776³"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(íîø¢ýÿÿÿÿ
+bsquid:S1764™"JCorrect one of the identical sub-expressions on both sides of operator "|"(žÁ„á
+squid:S1319C"qThe type of the "TRACE_ALL" object should be an interface such as "Set" rather than the implementation "EnumSet".(…íÏÝúÿÿÿÿ
+Šsquid:S1319—"mThe type of the "flags" object should be an interface such as "Set" rather than the implementation "EnumSet".(Ø˜àÒùÿÿÿÿ
+4squid:S1643Ô"Use a StringBuilder instead.(¡§¿©
+„"squid:ClassVariableVisibilityCheckG"VMake TRACE_NONE a static final constant or non-public and provide accessors if needed.(åÜ‹ð
+wsquid:S1149¡"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(­¡‰ÿ
+jsquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(‘ïï¬
+csquid:CommentedOutCodeLineÑ"<This block of commented-out lines of code should be removed.(ÊùîÞ
+isquid:ModifiersOrderCheck"EReorder the modifiers to comply with the Java Language Specification.(‰–¹
+bsquid:CommentedOutCodeLineú"<This block of commented-out lines of code should be removed.(Ïó¯y
+wsquid:S1149î"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(¸˜’‘
+ˆ"squid:ClassVariableVisibilityCheckC"UMake TRACE_ALL a static final constant or non-public and provide accessors if needed.(…íÏÝúÿÿÿÿ
+ssquid:S00116^"VRename this field "STACK_START" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§°À°üÿÿÿÿ
+9squid:S2386C"Make this member "protected".(…íÏÝúÿÿÿÿ
+jsquid:S00117Ÿ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Îôï

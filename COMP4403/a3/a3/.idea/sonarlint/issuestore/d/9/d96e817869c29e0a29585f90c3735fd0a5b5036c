@@ -1,0 +1,602 @@
+
+csquid:S1854Š
+"?Remove this useless assignment to local variable "paramxright".(î¦ûÑûÿÿÿÿ8ÜªÛñ©.
+Qsquid:S1199Ç"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+vsquid:S00117«"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅÕÈÁùÿÿÿÿ8ÜªÛñ©.
+vsquid:S00117—
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰ı”¡şÿÿÿÿ8ÜªÛñ©.
+_squid:S1854¬	";Remove this useless assignment to local variable "exright".(Ú¾§ûÿÿÿÿ8ÜªÛñ©.
+Ssquid:S1481Î	"4Remove this unused "paramListxright" local variable.(±è˜8ÜªÛñ©.
+qsquid:S00117è	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ºç¶8ÜªÛñ©.
+csquid:S1854ø	"?Remove this useless assignment to local variable "paramxright".(î¦ûÑûÿÿÿÿ8ÜªÛñ©.
+Nsquid:S1481‰
+"/Remove this unused "paramxleft" local variable.(·íÕ´8ÜªÛñ©.
+_squid:S1854ñ
+";Remove this useless assignment to local variable "e1xleft".(Å‚İ´ÿÿÿÿÿ8ÜªÛñ©.
+gsquid:S1854‡
+"CRemove this useless assignment to local variable "paramListxright".(ÄÇ–øÿÿÿÿ8ÜªÛñ©.
+Gsquid:S1905ë	")Remove this unnecessary cast to "Object".(Î¹ÜM8ÜªÛñ©.
+Lsquid:S1481"-Remove this unused "elxright" local variable.(ã²ôï8ÜªÛñ©.
+Qsquid:S1199¨"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+_squid:S1854";Remove this useless assignment to local variable "elxleft".(êŞ‹¯ıÿÿÿÿ8ÜªÛñ©.
+Psquid:S1481ë",Remove this unused "cxright" local variable.(ûß§áıÿÿÿÿ8ÜªÛñ©.
+vsquid:S00117…
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰ı”¡şÿÿÿÿ8ÜªÛñ©.
+asquid:UselessImportCheck"8Remove this unused import 'java_cup.runtime.XMLElement'.(ë˜í†ÿÿÿÿÿ
+^squid:S1854Ò":Remove this useless assignment to local variable "txleft".(ôòÀüÿÿÿÿ8ÜªÛñ©.
+Lsquid:S1481á"-Remove this unused "e1xright" local variable.(Òâ‹Â8ÜªÛñ©.
+Qsquid:S1199ª"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+Qsquid:S1481»"-Remove this unused "elxright" local variable.(ù¨¾²şÿÿÿÿ8ÜªÛñ©.
+Qsquid:S1199„
+"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+bsquid:S1854‹"CRemove this useless assignment to local variable "paramListxright".(±è˜8ÜªÛñ©.
+Qsquid:S1199í"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+Qsquid:S1199ä"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8Óó‰¿©.
+qsquid:S00117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ºç¶8ÜªÛñ©.
+bsquid:S1854™
+"CRemove this useless assignment to local variable "paramListxright".(±è˜8ÜªÛñ©.
+`squid:S1854Ë	"<Remove this useless assignment to local variable "idxright".(ˆƒİÉüÿÿÿÿ8ÜªÛñ©.
+Lsquid:S1481Ÿ"-Remove this unused "e2xright" local variable.(˜åÌ™8ÜªÛñ©.
+qsquid:S00117é"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ºç¶8ÜªÛñ©.
+[squid:S1854Ü	"<Remove this useless assignment to local variable "idxright".(¿ä©ø8ÜªÛñ©.
+Nsquid:S1481º	"/Remove this unused "lvalxright" local variable.(¶¢Ã‡8ÜªÛñ©.
+Qsquid:S1199È	"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+Qsquid:S1199¤
+"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+osquid:S1192ş	"PDefine a constant instead of duplicating this literal "ActualParamList" 3 times.(ÑÇÕ¦8ÜªÛñ©.
+vsquid:S00117„"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅÕÈÁùÿÿÿÿ8ÜªÛñ©.
+qsquid:S00117Ñ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øí±8ÜªÛñ©.
+qsquid:S00117×"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔÒş§8ÜªÛñ©.
+qsquid:S00117É	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ºç¶8ÜªÛñ©.
+fsquid:S1854Š"BRemove this useless assignment to local variable "paramListxleft".(·§˜”üÿÿÿÿ8ÜªÛñ©.
+Ssquid:S1481‹"4Remove this unused "paramListxright" local variable.(±è˜8ÜªÛñ©.
+qsquid:S00117Ô
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øí±8ÜªÛñ©.
+Ssquid:S1481½	"/Remove this unused "rvalxright" local variable.(ï½ùÿÿÿÿ8ÜªÛñ©.
+qsquid:S00117Æ
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øí±8ÜªÛñ©.
+\squid:S1854­"=Remove this useless assignment to local variable "typexleft".(ù’Ü8ÜªÛñ©.
+Qsquid:S1133$"5Do not forget to remove this deprecated code someday.(±†å’øÿÿÿÿ
+Jsquid:S1481§
+",Remove this unused "cxright" local variable.(Ä–ùf8ÜªÛñ©.
+Lsquid:S1481µ
+"-Remove this unused "idxright" local variable.(»òï“8ÜªÛñ©.
+Qsquid:S1481ÿ"-Remove this unused "s1xright" local variable.(ï¡Ÿáıÿÿÿÿ8ÜªÛñ©.
+Lsquid:S1481ø
+"-Remove this unused "e2xright" local variable.(˜åÌ™8ÜªÛñ©.
+Jsquid:S1481Õ
+"+Remove this unused "exleft" local variable.(½øòÆ8ÜªÛñ©.
+Ksquid:S1481æ",Remove this unused "e2xleft" local variable.(±»Õ¥8ÜªÛñ©.
+]squid:S1854‰
+">Remove this useless assignment to local variable "paramxleft".(·íÕ´8ÜªÛñ©.
+qsquid:S00117ú"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ºç¶8ÜªÛñ©.
+Qsquid:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+Qsquid:S1199Ö"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+vsquid:S00117ş"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅÕÈÁùÿÿÿÿ8ÜªÛñ©.
+qsquid:S00117œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øí±8ÜªÛñ©.
+Ksquid:S1481",Remove this unused "e2xleft" local variable.(±»Õ¥8ÜªÛñ©.
+Psquid:S1481Ã",Remove this unused "exright" local variable.(Ú¾§ûÿÿÿÿ8ÜªÛñ©.
+Ysquid:S1854Â":Remove this useless assignment to local variable "exleft".(½øòÆ8ÜªÛñ©.
+Qsquid:S1199¹"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+Ksquid:S1481ü",Remove this unused "cxright" local variable.(¦ñ†«8ÜªÛñ©.
+_squid:S1854î";Remove this useless assignment to local variable "sxright".(ƒ•¥ıÿÿÿÿ8ÜªÛñ©.
+Lsquid:S1481ò
+"-Remove this unused "e1xright" local variable.(Òâ‹Â8ÜªÛñ©.
+ksquid:S1192È"GDefine a constant instead of duplicating this literal "Factor" 7 times.(õÿëÄùÿÿÿÿ8ÜªÛñ©.
+qsquid:S00117à"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øí±8ÜªÛñ©.
+fsquid:S1854†
+"BRemove this useless assignment to local variable "paramListxleft".(Ğâ›°øÿÿÿÿ8ÜªÛñ©.
+Zsquid:S1854ü";Remove this useless assignment to local variable "cxright".(¦ñ†«8ÜªÛñ©.
+Osquid:S1481í"+Remove this unused "sxleft" local variable.(Ÿ½§ıÿÿÿÿ8ÜªÛñ©.
+Qsquid:S1199²
+"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+osquid:S00117÷"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨æÌãşÿÿÿÿ
+Ysquid:S1854Õ
+":Remove this useless assignment to local variable "exleft".(½øòÆ8ÜªÛñ©.
+qsquid:S00117º"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ºç¶8ÜªÛñ©.
+xsquid:S2293û	"YReplace the type specification in this constructor call with the diamond operator ("<>").(±ƒ˜È8ÜªÛñ©.
+Jsquid:S1481¦
+"+Remove this unused "cxleft" local variable.(Êû·‹8ÜªÛñ©.
+qsquid:S00117Ï"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øí±8ÜªÛñ©.
+Qsquid:S1199Ù"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+Lsquid:S1481«"-Remove this unused "idxright" local variable.(¿ä©ø8ÜªÛñ©.
+Ssquid:S1481®"/Remove this unused "typexright" local variable.(àÚ’ôûÿÿÿÿ8ÜªÛñ©.
+Qsquid:S1199ƒ"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+[squid:S1854Ÿ"<Remove this useless assignment to local variable "e2xright".(˜åÌ™8ÜªÛñ©.
+msquid:S1192ˆ"IDefine a constant instead of duplicating this literal "Relation" 7 times.(ŸíÁ•ÿÿÿÿÿ8ÜªÛñ©.
+_squid:S1854Ö
+";Remove this useless assignment to local variable "exright".(Ú¾§ûÿÿÿÿ8ÜªÛñ©.
+Qsquid:S1199Ş"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+Psquid:S1481ñ
+",Remove this unused "e1xleft" local variable.(Å‚İ´ÿÿÿÿÿ8ÜªÛñ©.
+Qsquid:S1199©	"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+psquid:S1192²"LDefine a constant instead of duplicating this literal "ElementList" 3 times.(‡¨èÿÿÿÿÿ8ÜªÛñ©.
+Ksquid:S1481Ó",Remove this unused "txright" local variable.(×ö¬»8ÜªÛñ©.
+Lsquid:S1481™"-Remove this unused "e1xright" local variable.(Òâ‹Â8ÜªÛñ©.
+vsquid:S00117»"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅÕÈÁùÿÿÿÿ8ÜªÛñ©.
+Ysquid:S1854¦
+":Remove this useless assignment to local variable "cxleft".(Êû·‹8ÜªÛñ©.
+[squid:S1854ç"<Remove this useless assignment to local variable "e2xright".(˜åÌ™8ÜªÛñ©.
+Qsquid:S1199è"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+Wsquid:S1481Š"3Remove this unused "paramListxleft" local variable.(·§˜”üÿÿÿÿ8ÜªÛñ©.
+Osquid:S1481	"+Remove this unused "sxleft" local variable.(Ÿ½§ıÿÿÿÿ8ÜªÛñ©.
+^squid:S1854É":Remove this useless assignment to local variable "sxleft".(Ÿ½§ıÿÿÿÿ8ÜªÛñ©.
+Zsquid:S1854Ó";Remove this useless assignment to local variable "txright".(×ö¬»8ÜªÛñ©.
+bsquid:S1854½	">Remove this useless assignment to local variable "rvalxright".(ï½ùÿÿÿÿ8ÜªÛñ©.
+Usquid:S1854ë	"7Remove this useless assignment to local variable "loc".(Î¹ÜM8ÜªÛñ©.
+Qsquid:S1199	"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+`squid:S1854Ñ"<Remove this useless assignment to local variable "opxright".(´åÑ·ûÿÿÿÿ8ÜªÛñ©.
+Nsquid:S1481÷	"/Remove this unused "paramxleft" local variable.(·íÕ´8ÜªÛñ©.
+_squid:S1854â";Remove this useless assignment to local variable "cxright".(ÂÇüØÿÿÿÿÿ8ÜªÛñ©.
+Qsquid:S1199¤"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+qsquid:S00117‰"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øí±8ÜªÛñ©.
+Psquid:S1481º",Remove this unused "elxleft" local variable.(««ıùÿÿÿÿ8ÜªÛñ©.
+Nsquid:S1481"/Remove this unused "typexright" local variable.(°¾ƒı8ÜªÛñ©.
+Lsquid:S1481¼"-Remove this unused "slxright" local variable.(Ê¥÷¾8ÜªÛñ©.
+Ysquid:S1854É
+"5Remove this useless assignment to local variable "e".(ôŞ¥úÿÿÿÿ8ÜªÛñ©.
+qsquid:S00117î"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øí±8ÜªÛñ©.
+msquid:S1149ù"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(±±«úÿÿÿÿ
+_squid:S1854	";Remove this useless assignment to local variable "sxright".(ƒ•¥ıÿÿÿÿ8ÜªÛñ©.
+_squid:S1854à";Remove this useless assignment to local variable "e1xleft".(Å‚İ´ÿÿÿÿÿ8ÜªÛñ©.
+vsquid:S00117˜"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œÑä»øÿÿÿÿ8ÜªÛñ©.
+bsquid:S1854Î	"CRemove this useless assignment to local variable "paramListxright".(±è˜8ÜªÛñ©.
+Ksquid:S1481Ù"-Remove this unused "slxright" local variable.(òÓ»C8ÜªÛñ©.
+vsquid:S00117š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅÕÈÁùÿÿÿÿ8ÜªÛñ©.
+^squid:S1854í":Remove this useless assignment to local variable "sxleft".(Ÿ½§ıÿÿÿÿ8ÜªÛñ©.
+Ysquid:S1854ã
+":Remove this useless assignment to local variable "exleft".(½øòÆ8ÜªÛñ©.
+Psquid:S1481	",Remove this unused "s2xleft" local variable.(†é™Şùÿÿÿÿ8ÜªÛñ©.
+fsquid:S1854˜
+"BRemove this useless assignment to local variable "paramListxleft".(·§˜”üÿÿÿÿ8ÜªÛñ©.
+Qsquid:S1199Å
+"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+Lsquid:S1481Ü	"-Remove this unused "idxright" local variable.(¿ä©ø8ÜªÛñ©.
+Psquid:S1481È
+",Remove this unused "exright" local variable.(Ú¾§ûÿÿÿÿ8ÜªÛñ©.
+qsquid:S00117Á"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øí±8ÜªÛñ©.
+`squid:S1854ÿ"<Remove this useless assignment to local variable "s1xright".(ï¡Ÿáıÿÿÿÿ8ÜªÛñ©.
+Ssquid:S1481	"/Remove this unused "lvalxright" local variable.(ÇİŸéüÿÿÿÿ8ÜªÛñ©.
+[squid:S1854Í"<Remove this useless assignment to local variable "elxright".(ã²ôï8ÜªÛñ©.
+Qsquid:S1199·	"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+qsquid:S00117¥
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øí±8ÜªÛñ©.
+Msquid:S1481¼	".Remove this unused "rvalxleft" local variable.(Ğçÿõ8ÜªÛñ©.
+Ksquid:S1481‹",Remove this unused "fxright" local variable.(Êºòş8ÜªÛñ©.
+osquid:S00117ù"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±±«úÿÿÿÿ
+vsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅÕÈÁùÿÿÿÿ8ÜªÛñ©.
+[squid:S1854™"<Remove this useless assignment to local variable "e1xright".(Òâ‹Â8ÜªÛñ©.
+vsquid:S00117ö	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰ı”¡şÿÿÿÿ8ÜªÛñ©.
+Qsquid:S1199›	"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+qsquid:S00117œ	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ºç¶8ÜªÛñ©.
+qsquid:S00117‹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øí±8ÜªÛñ©.
+[squid:S1854"<Remove this useless assignment to local variable "elxright".(ã²ôï8ÜªÛñ©.
+_squid:S1854º";Remove this useless assignment to local variable "elxleft".(««ıùÿÿÿÿ8ÜªÛñ©.
+Qsquid:S1481õ
+"-Remove this unused "opxright" local variable.(´åÑ·ûÿÿÿÿ8ÜªÛñ©.
+Xsquid:S1481‡
+"4Remove this unused "paramListxright" local variable.(ÄÇ–øÿÿÿÿ8ÜªÛñ©.
+Qsquid:S1199Ğ"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+Msquid:S1905É
+")Remove this unnecessary cast to "Object".(ôŞ¥úÿÿÿÿ8ÜªÛñ©.
+Rsquid:S1481ê	".Remove this unused "locxright" local variable.(Šƒµ°ÿÿÿÿÿ8ÜªÛñ©.
+Qsquid:S1199—"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+_squid:S00112ï"FDefine and throw a dedicated exception instead of using a generic one.(Î¢›‘
+Tsquid:S1481ø	"0Remove this unused "paramxright" local variable.(î¦ûÑûÿÿÿÿ8ÜªÛñ©.
+Jsquid:S1481É
+"&Remove this unused "e" local variable.(ôŞ¥úÿÿÿÿ8ÜªÛñ©.
+qsquid:S00117ı"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øí±8ÜªÛñ©.
+Qsquid:S1199Å"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+Qsquid:S1199–"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+\squid:S1854¼	"=Remove this useless assignment to local variable "rvalxleft".(Ğçÿõ8ÜªÛñ©.
+Psquid:S1481ğ",Remove this unused "nxright" local variable.(Ã£Œúÿÿÿÿ8ÜªÛñ©.
+Psquid:S1481",Remove this unused "elxleft" local variable.(êŞ‹¯ıÿÿÿÿ8ÜªÛñ©.
+Jsquid:S1481¾",Remove this unused "cxright" local variable.(Ä–ùf8ÜªÛñ©.
+Qsquid:S1199á
+"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+Qsquid:S1199Š"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+_squid:S1854Ê";Remove this useless assignment to local variable "sxright".(ƒ•¥ıÿÿÿÿ8ÜªÛñ©.
+vsquid:S00117å"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅÕÈÁùÿÿÿÿ8Óó‰¿©.
+bsquid:S1854ÿ">Remove this useless assignment to local variable "lvalxright".(ÇİŸéüÿÿÿÿ8ÜªÛñ©.
+Qsquid:S1481œ"-Remove this unused "opxright" local variable.(´åÑ·ûÿÿÿÿ8ÜªÛñ©.
+Ysquid:S1854«":Remove this useless assignment to local variable "cxleft".(Êû·‹8ÜªÛñ©.
+Psquid:S1481Ö
+",Remove this unused "exright" local variable.(Ú¾§ûÿÿÿÿ8ÜªÛñ©.
+Ysquid:S1854§
+";Remove this useless assignment to local variable "cxright".(Ä–ùf8ÜªÛñ©.
+`squid:S1854œ"<Remove this useless assignment to local variable "opxright".(´åÑ·ûÿÿÿÿ8ÜªÛñ©.
+Psquid:S1481Ô",Remove this unused "exright" local variable.(Ú¾§ûÿÿÿÿ8ÜªÛñ©.
+Osquid:S1481á"+Remove this unused "cxleft" local variable.(ó¾¡åÿÿÿÿÿ8ÜªÛñ©.
+vsquid:S00117ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅÕÈÁùÿÿÿÿ8ÜªÛñ©.
+Qsquid:S1199›"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+_squid:S1854Ã";Remove this useless assignment to local variable "exright".(Ú¾§ûÿÿÿÿ8ÜªÛñ©.
+Qsquid:S1199©"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+Vsquid:S1161":Add the "@Override" annotation above this method signature(ÙäÊ×ùÿÿÿÿ
+qsquid:S00117³
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øí±8ÜªÛñ©.
+]squid:S1854÷	">Remove this useless assignment to local variable "paramxleft".(·íÕ´8ÜªÛñ©.
+jsquid:S00117ø"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–Šô‚
+Usquid:MissingDeprecatedCheck$"(Add the missing @deprecated Javadoc tag.(±†å’øÿÿÿÿ
+Zsquid:S1854æ";Remove this useless assignment to local variable "e2xleft".(±»Õ¥8ÜªÛñ©.
+Ssquid:S1481"/Remove this unused "typexright" local variable.(àÚ’ôûÿÿÿÿ8ÜªÛñ©.
+Qsquid:S1199Ó
+"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+Fsquid:S1481ë	"(Remove this unused "loc" local variable.(Î¹ÜM8ÜªÛñ©.
+vsquid:S00117°"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅÕÈÁùÿÿÿÿ8ÜªÛñ©.
+^squid:S1854Û":Remove this useless assignment to local variable "sxleft".(Ÿ½§ıÿÿÿÿ8ÜªÛñ©.
+_squid:S1854	";Remove this useless assignment to local variable "s2xleft".(†é™Şùÿÿÿÿ8ÜªÛñ©.
+Qsquid:S1199–
+"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+Qsquid:S1199¯"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+Qsquid:S1199ˆ"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+Qsquid:S1199Î"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+Psquid:S1481Ü",Remove this unused "sxright" local variable.(ƒ•¥ıÿÿÿÿ8ÜªÛñ©.
+Qsquid:S1199º"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+msquid:S1149ù"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(±±«úÿÿÿÿ
+\squid:S1854œ"=Remove this useless assignment to local variable "typexleft".(ù’Ü8ÜªÛñ©.
+Wsquid:S1481Í	"3Remove this unused "paramListxleft" local variable.(·§˜”üÿÿÿÿ8ÜªÛñ©.
+Wsquid:S1481†
+"3Remove this unused "paramListxleft" local variable.(Ğâ›°øÿÿÿÿ8ÜªÛñ©.
+Psquid:S1481	",Remove this unused "sxright" local variable.(ƒ•¥ıÿÿÿÿ8ÜªÛñ©.
+Tsquid:S1481Š
+"0Remove this unused "paramxright" local variable.(î¦ûÑûÿÿÿÿ8ÜªÛñ©.
+Psquid:S1481ä
+",Remove this unused "exright" local variable.(Ú¾§ûÿÿÿÿ8ÜªÛñ©.
+qsquid:S00117â
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øí±8ÜªÛñ©.
+Qsquid:S1481‚	"-Remove this unused "s2xright" local variable.(çö“øÿÿÿÿ8ÜªÛñ©.
+]squid:S1854">Remove this useless assignment to local variable "typexright".(°¾ƒı8ÜªÛñ©.
+Qsquid:S1481Ñ"-Remove this unused "opxright" local variable.(´åÑ·ûÿÿÿÿ8ÜªÛñ©.
+Msquid:S1481œ".Remove this unused "typexleft" local variable.(ù’Ü8ÜªÛñ©.
+Jsquid:S1481¬",Remove this unused "cxright" local variable.(Ä–ùf8ÜªÛñ©.
+Ksquid:S1481÷
+",Remove this unused "e2xleft" local variable.(±»Õ¥8ÜªÛñ©.
+vsquid:S00117‰"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºï³üÿÿÿÿ8ÜªÛñ©.
+[squid:S1854ò
+"<Remove this useless assignment to local variable "e1xright".(Òâ‹Â8ÜªÛñ©.
+Ysquid:S1854¬";Remove this useless assignment to local variable "cxright".(Ä–ùf8ÜªÛñ©.
+vsquid:S00117ª"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰ı”¡şÿÿÿÿ8ÜªÛñ©.
+Jsquid:S1481Â"+Remove this unused "exleft" local variable.(½øòÆ8ÜªÛñ©.
+vsquid:S00117¶"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅÕÈÁùÿÿÿÿ8ÜªÛñ©.
+Osquid:S1481É"+Remove this unused "sxleft" local variable.(Ÿ½§ıÿÿÿÿ8ÜªÛñ©.
+Qsquid:S1199Ù	"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+Ssquid:S1481™
+"4Remove this unused "paramListxright" local variable.(±è˜8ÜªÛñ©.
+Jsquid:S1481Š"+Remove this unused "fxleft" local variable.(¦Ê¦ş8ÜªÛñ©.
+vsquid:S00117¹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰ı”¡şÿÿÿÿ8ÜªÛñ©.
+Psquid:S1481à",Remove this unused "e1xleft" local variable.(Å‚İ´ÿÿÿÿÿ8ÜªÛñ©.
+Psquid:S1481˜",Remove this unused "e1xleft" local variable.(Å‚İ´ÿÿÿÿÿ8ÜªÛñ©.
+qsquid:S00117¸	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ºç¶8ÜªÛñ©.
+_squid:S1854Ü";Remove this useless assignment to local variable "sxright".(ƒ•¥ıÿÿÿÿ8ÜªÛñ©.
+[squid:S1854¼"<Remove this useless assignment to local variable "slxright".(Ê¥÷¾8ÜªÛñ©.
+Qsquid:S1199µ"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+Qsquid:S1199ß"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+Zsquid:S1854Ø";Remove this useless assignment to local variable "slxleft".(şá“8ÜªÛñ©.
+bsquid:S1854	">Remove this useless assignment to local variable "lvalxright".(ÇİŸéüÿÿÿÿ8ÜªÛñ©.
+\squid:S1854">Remove this useless assignment to local variable "typexright".(âï€>8ÜªÛñ©.
+^squid:S1854á":Remove this useless assignment to local variable "cxleft".(ó¾¡åÿÿÿÿÿ8ÜªÛñ©.
+Ysquid:S1854Ó":Remove this useless assignment to local variable "exleft".(½øòÆ8ÜªÛñ©.
+Ksquid:S1481Ø",Remove this unused "slxleft" local variable.(şá“8ÜªÛñ©.
+jsquid:S00117ú"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Üšı•
+Msquid:S1481"/Remove this unused "typexright" local variable.(âï€>8ÜªÛñ©.
+_squid:S1854˜";Remove this useless assignment to local variable "e1xleft".(Å‚İ´ÿÿÿÿÿ8ÜªÛñ©.
+[squid:S1854«"<Remove this useless assignment to local variable "idxright".(¿ä©ø8ÜªÛñ©.
+Qsquid:S1199ç	"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+Psquid:S1481¬	",Remove this unused "exright" local variable.(Ú¾§ûÿÿÿÿ8ÜªÛñ©.
+Qsquid:S1199ò"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+vsquid:S00117¥"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅÕÈÁùÿÿÿÿ8ÜªÛñ©.
+Usquid:MissingDeprecatedCheck "(Add the missing @deprecated Javadoc tag.(ã¸†îúÿÿÿÿ
+[squid:S1854ø
+"<Remove this useless assignment to local variable "e2xright".(˜åÌ™8ÜªÛñ©.
+_squid:S1854Ô";Remove this useless assignment to local variable "exright".(Ú¾§ûÿÿÿÿ8ÜªÛñ©.
+`squid:S1854‚	"<Remove this useless assignment to local variable "s2xright".(çö“øÿÿÿÿ8ÜªÛñ©.
+\squid:S1854ş"=Remove this useless assignment to local variable "lvalxleft".(©úØò8ÜªÛñ©.
+`squid:S1854»"<Remove this useless assignment to local variable "elxright".(ù¨¾²şÿÿÿÿ8ÜªÛñ©.
+]squid:S1854º	">Remove this useless assignment to local variable "lvalxright".(¶¢Ã‡8ÜªÛñ©.
+Lsquid:S1481š"-Remove this unused "idxright" local variable.(¿ä©ø8ÜªÛñ©.
+_squid:S1854ä
+";Remove this useless assignment to local variable "exright".(Ú¾§ûÿÿÿÿ8ÜªÛñ©.
+Jsquid:S1481ã
+"+Remove this unused "exleft" local variable.(½øòÆ8ÜªÛñ©.
+Wsquid:S1481˜
+"3Remove this unused "paramListxleft" local variable.(·§˜”üÿÿÿÿ8ÜªÛñ©.
+vsquid:S00117Æ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅÕÈÁùÿÿÿÿ8ÜªÛñ©.
+Ssquid:S1481ÿ"/Remove this unused "lvalxright" local variable.(ÇİŸéüÿÿÿÿ8ÜªÛñ©.
+Jsquid:S1481«"+Remove this unused "cxleft" local variable.(Êû·‹8ÜªÛñ©.
+Lsquid:S1481Í"-Remove this unused "elxright" local variable.(ã²ôï8ÜªÛñ©.
+bsquid:S1854">Remove this useless assignment to local variable "typexright".(àÚ’ôûÿÿÿÿ8ÜªÛñ©.
+vsquid:S00117©"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œÑä»øÿÿÿÿ8ÜªÛñ©.
+Qsquid:S1199ˆ"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+Qsquid:S1199À"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+Psquid:S1481â",Remove this unused "cxright" local variable.(ÂÇüØÿÿÿÿÿ8ÜªÛñ©.
+Osquid:S1197*"8Move the array designator from the variable to the type.(æÇ¹Ñ
+Qsquid:S1133 "5Do not forget to remove this deprecated code someday.(ã¸†îúÿÿÿÿ
+Ksquid:S1481ş",Remove this unused "s1xleft" local variable.(»ãÁ8ÜªÛñ©.
+Psquid:S1481Ê",Remove this unused "sxright" local variable.(ƒ•¥ıÿÿÿÿ8ÜªÛñ©.
+Ysquid:S1854½":Remove this useless assignment to local variable "cxleft".(Êû·‹8ÜªÛñ©.
+Qsquid:S1199ü"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+[squid:S1854š"<Remove this useless assignment to local variable "idxright".(¿ä©ø8ÜªÛñ©.
+Zsquid:S1854‹";Remove this useless assignment to local variable "fxright".(Êºòş8ÜªÛñ©.
+Osquid:S1481Û"+Remove this unused "sxleft" local variable.(Ÿ½§ıÿÿÿÿ8ÜªÛñ©.
+_squid:S1854Ì";Remove this useless assignment to local variable "elxleft".(êŞ‹¯ıÿÿÿÿ8ÜªÛñ©.
+Msquid:S1481ş".Remove this unused "lvalxleft" local variable.(©úØò8ÜªÛñ©.
+Qsquid:S1199ï
+"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+`squid:S1854ä"<Remove this useless assignment to local variable "opxright".(´åÑ·ûÿÿÿÿ8ÜªÛñ©.
+vsquid:S00117Ú"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÅÕÈÁùÿÿÿÿ8ÜªÛñ©.
+Qsquid:S1481Ë	"-Remove this unused "idxright" local variable.(ˆƒİÉüÿÿÿÿ8ÜªÛñ©.
+asquid:S1854ê	"=Remove this useless assignment to local variable "locxright".(Šƒµ°ÿÿÿÿÿ8ÜªÛñ©.
+Lsquid:S1481ç"-Remove this unused "e2xright" local variable.(˜åÌ™8ÜªÛñ©.
+fsquid:S1854Í	"BRemove this useless assignment to local variable "paramListxleft".(·§˜”üÿÿÿÿ8ÜªÛñ©.
+Qsquid:S1481ä"-Remove this unused "opxright" local variable.(´åÑ·ûÿÿÿÿ8ÜªÛñ©.
+`squid:S1854õ
+"<Remove this useless assignment to local variable "opxright".(´åÑ·ûÿÿÿÿ8ÜªÛñ©.
+qsquid:S00117Ú	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ºç¶8ÜªÛñ©.
+[squid:S1854á"<Remove this useless assignment to local variable "e1xright".(Òâ‹Â8ÜªÛñ©.
+gsquid:S00100ö"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Üƒ”‡
+Qsquid:S1199ı"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+_squid:S1854È
+";Remove this useless assignment to local variable "exright".(Ú¾§ûÿÿÿÿ8ÜªÛñ©.
+Ysquid:S1854Š":Remove this useless assignment to local variable "fxleft".(¦Ê¦ş8ÜªÛñ©.
+Psquid:S1481î",Remove this unused "sxright" local variable.(ƒ•¥ıÿÿÿÿ8ÜªÛñ©.
+isquid:S1192ó"JDefine a constant instead of duplicating this literal "Statement" 9 times.(Â¹íÎ8ÜªÛñ©.
+Ysquid:S1854¾";Remove this useless assignment to local variable "cxright".(Ä–ùf8ÜªÛñ©.
+Jsquid:S1481Ó"+Remove this unused "exleft" local variable.(½øòÆ8ÜªÛñ©.
+_squid:S1854ë";Remove this useless assignment to local variable "cxright".(ûß§áıÿÿÿÿ8ÜªÛñ©.
+_squid:S1854ğ";Remove this useless assignment to local variable "nxright".(Ã£Œúÿÿÿÿ8ÜªÛñ©.
+Qsquid:S1199Ê"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+qsquid:S00117—"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øí±8ÜªÛñ©.
+vsquid:S00117Ë"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰ı”¡şÿÿÿÿ8ÜªÛñ©.
+Zsquid:S1854";Remove this useless assignment to local variable "e2xleft".(±»Õ¥8ÜªÛñ©.
+Msquid:S1481­".Remove this unused "typexleft" local variable.(ù’Ü8ÜªÛñ©.
+Osquid:S1481Ò"+Remove this unused "txleft" local variable.(ôòÀüÿÿÿÿ8ÜªÛñ©.
+qsquid:S00117ğ
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øí±8ÜªÛñ©.
+qsquid:S00117ß"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øí±8ÜªÛñ©.
+xsquid:S2293Í"YReplace the type specification in this constructor call with the diamond operator ("<>").(¦‡™¸8ÜªÛñ©.
+Jsquid:S1481½"+Remove this unused "cxleft" local variable.(Êû·‹8ÜªÛñ©.
+Qsquid:S1199™"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+bsquid:S1854®">Remove this useless assignment to local variable "typexright".(àÚ’ôûÿÿÿÿ8ÜªÛñ©.
+Zsquid:S1854Ù"<Remove this useless assignment to local variable "slxright".(òÓ»C8ÜªÛñ©.
+Psquid:S1481Ì",Remove this unused "elxleft" local variable.(êŞ‹¯ıÿÿÿÿ8ÜªÛñ©.
+Qsquid:S1199ù"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+xsquid:S2293¯"YReplace the type specification in this constructor call with the diamond operator ("<>").(±ƒ˜È8ÜªÛñ©.
+^squid:S1854	":Remove this useless assignment to local variable "sxleft".(Ÿ½§ıÿÿÿÿ8ÜªÛñ©.
+qsquid:S00117È"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔÒş§8ÜªÛñ©.
+Zsquid:S1854ş";Remove this useless assignment to local variable "s1xleft".(»ãÁ8ÜªÛñ©.
+Zsquid:S1854÷
+";Remove this useless assignment to local variable "e2xleft".(±»Õ¥8ÜªÛñ©.
+[squid:S1854µ
+"<Remove this useless assignment to local variable "idxright".(»òï“8ÜªÛñ©.
+Qsquid:S1199õ	"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+qsquid:S00117ª	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»ºç¶8ÜªÛñ©.
+Qsquid:S1199¸"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ÜªÛñ©.
+rsquid:S1192¯"NDefine a constant instead of duplicating this literal "ProcedureHead" 3 times.(ÍšÁÙøÿÿÿÿ8ï€ò©.
+psquid:S1192¿"LDefine a constant instead of duplicating this literal "Declaration" 3 times.(òĞšâûÿÿÿÿ8ï€ò©.
+”squid:S1192¥"uDefine a constant instead of duplicating this literal "\033\041\040\051\042\043\047\037\050\045\052\047\001" 3 times.(ŒÑƒ†8ï€ò©.
+osquid:S1192ğ"PDefine a constant instead of duplicating this literal "FormalParamList" 3 times.(½š¨ã8ï€ò©.
+msquid:S1192‘"IDefine a constant instead of duplicating this literal "Constant" 4 times.(ïÃÄûÿÿÿÿ8ï€ò©.
+tsquid:S1192›"PDefine a constant instead of duplicating this literal "DeclarationList" 3 times.(İÂª¨øÿÿÿÿ8ï€ò©.
+™squid:S1192£"uDefine a constant instead of duplicating this literal "\001\001\000\002\001\001\000\002\001\001\000\002\001" 6 times.(®¨Ğßıÿÿÿÿ8ï€ò©.
+”squid:S1192”"uDefine a constant instead of duplicating this literal "\001\000\002\001\001\000\002\001\001\000\002\001\001" 3 times.(ÃÈŞ¡8ï€ò©.
+squid:S1192÷"`Define a constant instead of duplicating this literal " already declared in this scope" 5 times.(àş8ï€ò©.
+Qsquid:S1199µ"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ï€ò©.
+Qsquid:S1199Í"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ï€ò©.
+Qsquid:S1199â"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ï€ò©.
+Qsquid:S1199ğ"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ï€ò©.
+Qsquid:S1199ı"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ï€ò©.
+Qsquid:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ï€ò©.
+Qsquid:S1199¡"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ï€ò©.
+Qsquid:S1199±"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ï€ò©.
+Qsquid:S1199¼"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ï€ò©.
+Qsquid:S1199Å"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ï€ò©.
+Qsquid:S1199Î"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ï€ò©.
+Qsquid:S1199×"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ï€ò©.
+Qsquid:S1199à"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ï€ò©.
+Qsquid:S1199é"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ï€ò©.
+Qsquid:S1199€"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ï€ò©.
+Qsquid:S1199‰"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ï€ò©.
+Qsquid:S1199—"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ï€ò©.
+Qsquid:S1199¨"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ï€ò©.
+Qsquid:S1199¶"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ï€ò©.
+Qsquid:S1199Ä"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ï€ò©.
+Qsquid:S1199Í"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ï€ò©.
+Qsquid:S1199Ö"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ï€ò©.
+Qsquid:S1199ê"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ï€ò©.
+Qsquid:S1199ó"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ï€ò©.
+Qsquid:S1199"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ï€ò©.
+Qsquid:S1199•"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ï€ò©.
+Qsquid:S1199£"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ï€ò©.
+Qsquid:S1199±"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ï€ò©.
+Qsquid:S1199Â"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ï€ò©.
+Qsquid:S1199Ë"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ï€ò©.
+Qsquid:S1199Ô"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ï€ò©.
+Qsquid:S1199é"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ï€ò©.
+Qsquid:S1199ò"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ï€ò©.
+Qsquid:S1199‡"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ï€ò©.
+Qsquid:S1199µ"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ï€ò©.
+Qsquid:S1199Ñ"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ï€ò©.
+Qsquid:S1199ç"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ï€ò©.
+Qsquid:S1199ö"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ8ï€ò©.
+ˆsquid:S4165õ"dRemove this useless assignment; "RESULT" already holds the assigned value along all execution paths.(ì”¤·ûÿÿÿÿ8ï€ò©.
+msquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(€ÒØ«8ï€ò©.
+ksquid:S00112«"FDefine and throw a dedicated exception instead of using a generic one.(ÔüÇíøÿÿÿÿ8ï€ò©.
+qsquid:S00117à"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹ò¨‹8ï€ò©.
+vsquid:S00117ÿ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶ ½ùÿÿÿÿ8ï€ò©.
+qsquid:S00117…"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹ëï×8ï€ò©.
+vsquid:S00117§"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨æÌãşÿÿÿÿ8ï€ò©.
+qsquid:S00117¨"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–Šô‚8ï€ò©.
+vsquid:S00117©"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±±«úÿÿÿÿ8ï€ò©.
+qsquid:S00117ª"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Üšı•8ï€ò©.
+vsquid:S00117®"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(û¤ÙÌùÿÿÿÿ8ï€ò©.
+qsquid:S00117¶"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(““™­8ï€ò©.
+qsquid:S00117Î"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(““™­8ï€ò©.
+vsquid:S00117ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Ğ¹äşÿÿÿÿ8ï€ò©.
+qsquid:S00117ä"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾™®å8ï€ò©.
+qsquid:S00117å"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…†¨ 8ï€ò©.
+vsquid:S00117æ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ „œøÿÿÿÿ8ï€ò©.
+qsquid:S00117ñ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(““™­8ï€ò©.
+vsquid:S00117ş"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÀÇĞ’üÿÿÿÿ8ï€ò©.
+qsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×íß­8ï€ò©.
+qsquid:S00117¢"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×íß­8ï€ò©.
+qsquid:S00117²"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×íß­8ï€ò©.
+vsquid:S00117½"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Ğ¹äşÿÿÿÿ8ï€ò©.
+vsquid:S00117Æ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Ğ¹äşÿÿÿÿ8ï€ò©.
+vsquid:S00117Ï"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Ğ¹äşÿÿÿÿ8ï€ò©.
+vsquid:S00117Ø"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Ğ¹äşÿÿÿÿ8ï€ò©.
+vsquid:S00117á"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Ğ¹äşÿÿÿÿ8ï€ò©.
+vsquid:S00117ê"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Ğ¹äşÿÿÿÿ8ï€ò©.
+vsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Ğ¹äşÿÿÿÿ8ï€ò©.
+qsquid:S00117Š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åÔõå8ï€ò©.
+qsquid:S00117˜"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åÔõå8ï€ò©.
+qsquid:S00117©"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åÔõå8ï€ò©.
+qsquid:S00117·"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åÔõå8ï€ò©.
+vsquid:S00117Å"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Ğ¹äşÿÿÿÿ8ï€ò©.
+vsquid:S00117Î"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Ğ¹äşÿÿÿÿ8ï€ò©.
+vsquid:S00117×"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Ğ¹äşÿÿÿÿ8ï€ò©.
+vsquid:S00117ë"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Ğ¹äşÿÿÿÿ8ï€ò©.
+qsquid:S00117ô"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜÜëˆ8ï€ò©.
+qsquid:S00117‚"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜÜëˆ8ï€ò©.
+qsquid:S00117–"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜÜëˆ8ï€ò©.
+qsquid:S00117¤"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜÜëˆ8ï€ò©.
+qsquid:S00117²"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜÜëˆ8ï€ò©.
+vsquid:S00117Ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Ğ¹äşÿÿÿÿ8ï€ò©.
+vsquid:S00117Ì"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Ğ¹äşÿÿÿÿ8ï€ò©.
+vsquid:S00117Õ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Ğ¹äşÿÿÿÿ8ï€ò©.
+vsquid:S00117ê"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘Ğ¹äşÿÿÿÿ8ï€ò©.
+qsquid:S00117ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(““™­8ï€ò©.
+qsquid:S00117ˆ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉÅØÙ8ï€ò©.
+qsquid:S00117¶"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉÅØÙ8ï€ò©.
+qsquid:S00117Ò"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉÅØÙ8ï€ò©.
+vsquid:S00117è"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºï³üÿÿÿÿ8ï€ò©.
+vsquid:S00117÷"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºï³üÿÿÿÿ8ï€ò©.
+usquid:S00116Ö"URename this field "action_obj" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶«Úé8ï€ò©.
+tsquid:S1149©"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(±±«úÿÿÿÿ8ï€ò©.
+tsquid:S1149©"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(±±«úÿÿÿÿ8ï€ò©.
+qsquid:S3776¦"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(ûÎïÊ8ï€ò©.
+nsquid:S00100¦"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûÎïÊ8ï€ò©.
+^squid:S1854Ò"?Remove this useless assignment to local variable "blockxright".(ĞŞ™â8ï€ò©.
+]squid:S1854Ñ">Remove this useless assignment to local variable "blockxleft".(ü¼‘¬8ï€ò©.
+^squid:S1854Ğ":Remove this useless assignment to local variable "RESULT".(ÿÇ‘÷ùÿÿÿÿ8ï€ò©.
+bsquid:S1854å"CRemove this useless assignment to local variable "start_valxright".(…†¨ 8ï€ò©.
+asquid:S1854ä"BRemove this useless assignment to local variable "start_valxleft".(¾™®å8ï€ò©.
+Zsquid:S1854ƒ";Remove this useless assignment to local variable "bxright".(ˆ¾‡˜8ï€ò©.
+[squid:S1854€"<Remove this useless assignment to local variable "dlxright".(¬õÈ©8ï€ò©.
+Zsquid:S1854ÿ";Remove this useless assignment to local variable "dlxleft".(Ù©ô”8ï€ò©.
+_squid:S1854”";Remove this useless assignment to local variable "pxright".(–Èµïüÿÿÿÿ8ï€ò©.
+Ysquid:S1854“":Remove this useless assignment to local variable "pxleft".(äğ8ï€ò©.
+[squid:S1854‘"<Remove this useless assignment to local variable "dlxright".(¬õÈ©8ï€ò©.
+Zsquid:S1854";Remove this useless assignment to local variable "dlxleft".(Ù©ô”8ï€ò©.
+[squid:S1854¤"<Remove this useless assignment to local variable "dlxright".(¬õÈ©8ï€ò©.
+Zsquid:S1854£";Remove this useless assignment to local variable "dlxleft".(Ù©ô”8ï€ò©.
+_squid:S1854ï";Remove this useless assignment to local variable "cxright".(ÂÇüØÿÿÿÿÿ8ï€ò©.
+^squid:S1854î":Remove this useless assignment to local variable "cxleft".(ó¾¡åÿÿÿÿÿ8ï€ò©.
+`squid:S1854ì"<Remove this useless assignment to local variable "idxright".(ˆƒİÉüÿÿÿÿ8ï€ò©.
+_squid:S1854Œ";Remove this useless assignment to local variable "nxright".(Ã£Œúÿÿÿÿ8ï€ò©.
+Ysquid:S1854";Remove this useless assignment to local variable "cxright".(Ä–ùf8ï€ò©.
+Ysquid:S1854œ":Remove this useless assignment to local variable "cxleft".(Êû·‹8ï€ò©.
+Zsquid:S1854›"6Remove this useless assignment to local variable "op".(ùÌ»ªøÿÿÿÿ8ï€ò©.
+`squid:S1854š"<Remove this useless assignment to local variable "opxright".(´åÑ·ûÿÿÿÿ8ï€ò©.
+[squid:S1854«"<Remove this useless assignment to local variable "idxright".(»òï“8ï€ò©.
+[squid:S1854º"7Remove this useless assignment to local variable "err".(ÄéÓ¬şÿÿÿÿ8ï€ò©.
+\squid:S1854¹"=Remove this useless assignment to local variable "errxright".(¹ğÖ8ï€ò©.
+]squid:S1854Ü">Remove this useless assignment to local variable "typexright".(õ­¡‡8ï€ò©.
+\squid:S1854Û"=Remove this useless assignment to local variable "typexleft".(±¶ †8ï€ò©.
+`squid:S1854Ù"<Remove this useless assignment to local variable "idxright".(ˆƒİÉüÿÿÿÿ8ï€ò©.
+bsquid:S1854ö">Remove this useless assignment to local variable "typexright".(àÚ’ôûÿÿÿÿ8ï€ò©.
+\squid:S1854õ"=Remove this useless assignment to local variable "typexleft".(ù’Ü8ï€ò©.
+Zsquid:S1854Š"<Remove this useless assignment to local variable "hixright".(äŞ8ï€ò©.
+_squid:S1854‰";Remove this useless assignment to local variable "hixleft".(ñ½íûÿÿÿÿ8ï€ò©.
+`squid:S1854‡"<Remove this useless assignment to local variable "loxright".(Æ½×Ñúÿÿÿÿ8ï€ò©.
+Zsquid:S1854†";Remove this useless assignment to local variable "loxleft".(ÏÀ•õ8ï€ò©.
+\squid:S1854…"8Remove this useless assignment to local variable "subr".(ñûßûúÿÿÿÿ8ï€ò©.
+]squid:S1854„">Remove this useless assignment to local variable "subrxright".(Áö8ï€ò©.
+bsquid:S1854˜">Remove this useless assignment to local variable "typexright".(àÚ’ôûÿÿÿÿ8ï€ò©.
+[squid:S1854§"7Remove this useless assignment to local variable "err".(ÄéÓ¬şÿÿÿÿ8ï€ò©.
+\squid:S1854¦"=Remove this useless assignment to local variable "errxright".(¹ğÖ8ï€ò©.
+`squid:S1854¥"<Remove this useless assignment to local variable "errxleft".(“ß¨äüÿÿÿÿ8ï€ò©.
+[squid:S1854´"<Remove this useless assignment to local variable "idxright".(»òï“8ï€ò©.
+]squid:S1854Ú">Remove this useless assignment to local variable "typexright".(õ­¡‡8ï€ò©.
+\squid:S1854Ù"=Remove this useless assignment to local variable "typexleft".(±¶ †8ï€ò©.
+`squid:S1854×"<Remove this useless assignment to local variable "idxright".(ˆƒİÉüÿÿÿÿ8ï€ò©.
+Zsquid:S1854ø";Remove this useless assignment to local variable "bxright".(¨ğş¸8ï€ò©.
+^squid:S1854÷":Remove this useless assignment to local variable "bxleft".(´¹ÓÕşÿÿÿÿ8ï€ò©.
+bsquid:S1854õ"CRemove this useless assignment to local variable "procEntryxright".(Î–Ğƒ8ï€ò©.
+`squid:S1854ô"BRemove this useless assignment to local variable "procEntryxleft".(Ş÷ñ8ï€ò©.
+bsquid:S1854"CRemove this useless assignment to local variable "paramListxright".(±è˜8ï€ò©.
+fsquid:S1854Œ"BRemove this useless assignment to local variable "paramListxleft".(·§˜”üÿÿÿÿ8ï€ò©.
+`squid:S1854Š"<Remove this useless assignment to local variable "idxright".(ˆƒİÉüÿÿÿÿ8ï€ò©.
+[squid:S1854¸"<Remove this useless assignment to local variable "idxright".(¿ä©ø8ï€ò©.
+`squid:S1854Ô"<Remove this useless assignment to local variable "idxright".(¯¨¹·üÿÿÿÿ8ï€ò©.
+csquid:S1854ê"?Remove this useless assignment to local variable "paramxright".(î¦ûÑûÿÿÿÿ8ï€ò©.
+]squid:S1854é">Remove this useless assignment to local variable "paramxleft".(·íÕ´8ï€ò©.
+csquid:S1854ü"?Remove this useless assignment to local variable "paramxright".(î¦ûÑûÿÿÿÿ8ï€ò©.
+]squid:S1854û">Remove this useless assignment to local variable "paramxleft".(·íÕ´8ï€ò©.
+gsquid:S1854ù"CRemove this useless assignment to local variable "paramListxright".(ÄÇ–øÿÿÿÿ8ï€ò©.
+fsquid:S1854ø"BRemove this useless assignment to local variable "paramListxleft".(Ğâ›°øÿÿÿÿ8ï€ò©.
+msquid:S1871Í"IThis case's code block is the same as the block for the case on line 571.(‚ÁŠ»ÿÿÿÿÿ8ï€ò©.
+hsquid:S1871Ä"IThis case's code block is the same as the block for the case on line 571.(¼ÒëŸ8ï€ò©.
+asquid:S1479±"BReduce the number of non-empty switch cases from 90 to at most 30.(÷…Àş8ï€ò©.
+Msquid:S1905›")Remove this unnecessary cast to "Object".(ùÌ»ªøÿÿÿÿ8ï€ò©.
+Msquid:S1905º")Remove this unnecessary cast to "Object".(ÄéÓ¬şÿÿÿÿ8ï€ò©.
+Msquid:S1905…")Remove this unnecessary cast to "Object".(ñûßûúÿÿÿÿ8ï€ò©.
+Msquid:S1905§")Remove this unnecessary cast to "Object".(ÄéÓ¬şÿÿÿÿ8ï€ò©.
+xsquid:S2293í"YReplace the type specification in this constructor call with the diamond operator ("<>").(ñ’úÇ8ï€ò©.
+Nsquid:S1481Ñ"/Remove this unused "blockxleft" local variable.(ü¼‘¬8ï€ò©.
+Osquid:S1481Ò"0Remove this unused "blockxright" local variable.(ĞŞ™â8ï€ò©.
+Rsquid:S1481ä"3Remove this unused "start_valxleft" local variable.(¾™®å8ï€ò©.
+Ssquid:S1481å"4Remove this unused "start_valxright" local variable.(…†¨ 8ï€ò©.
+Ksquid:S1481ÿ",Remove this unused "dlxleft" local variable.(Ù©ô”8ï€ò©.
+Lsquid:S1481€"-Remove this unused "dlxright" local variable.(¬õÈ©8ï€ò©.
+Ksquid:S1481ƒ",Remove this unused "bxright" local variable.(ˆ¾‡˜8ï€ò©.
+Ksquid:S1481",Remove this unused "dlxleft" local variable.(Ù©ô”8ï€ò©.
+Lsquid:S1481‘"-Remove this unused "dlxright" local variable.(¬õÈ©8ï€ò©.
+Jsquid:S1481“"+Remove this unused "pxleft" local variable.(äğ8ï€ò©.
+Psquid:S1481”",Remove this unused "pxright" local variable.(–Èµïüÿÿÿÿ8ï€ò©.
+Ksquid:S1481£",Remove this unused "dlxleft" local variable.(Ù©ô”8ï€ò©.
+Lsquid:S1481¤"-Remove this unused "dlxright" local variable.(¬õÈ©8ï€ò©.
+Qsquid:S1481ì"-Remove this unused "idxright" local variable.(ˆƒİÉüÿÿÿÿ8ï€ò©.
+Osquid:S1481î"+Remove this unused "cxleft" local variable.(ó¾¡åÿÿÿÿÿ8ï€ò©.
+Psquid:S1481ï",Remove this unused "cxright" local variable.(ÂÇüØÿÿÿÿÿ8ï€ò©.
+Psquid:S1481Œ",Remove this unused "nxright" local variable.(Ã£Œúÿÿÿÿ8ï€ò©.
+Qsquid:S1481š"-Remove this unused "opxright" local variable.(´åÑ·ûÿÿÿÿ8ï€ò©.
+Ksquid:S1481›"'Remove this unused "op" local variable.(ùÌ»ªøÿÿÿÿ8ï€ò©.
+Jsquid:S1481œ"+Remove this unused "cxleft" local variable.(Êû·‹8ï€ò©.
+Jsquid:S1481",Remove this unused "cxright" local variable.(Ä–ùf8ï€ò©.
+Lsquid:S1481«"-Remove this unused "idxright" local variable.(»òï“8ï€ò©.
+Msquid:S1481¹".Remove this unused "errxright" local variable.(¹ğÖ8ï€ò©.
+Lsquid:S1481º"(Remove this unused "err" local variable.(ÄéÓ¬şÿÿÿÿ8ï€ò©.
+Qsquid:S1481Ù"-Remove this unused "idxright" local variable.(ˆƒİÉüÿÿÿÿ8ï€ò©.
+Msquid:S1481Û".Remove this unused "typexleft" local variable.(±¶ †8ï€ò©.
+Nsquid:S1481Ü"/Remove this unused "typexright" local variable.(õ­¡‡8ï€ò©.
+Msquid:S1481õ".Remove this unused "typexleft" local variable.(ù’Ü8ï€ò©.
+Ssquid:S1481ö"/Remove this unused "typexright" local variable.(àÚ’ôûÿÿÿÿ8ï€ò©.
+Nsquid:S1481„"/Remove this unused "subrxright" local variable.(Áö8ï€ò©.
+Msquid:S1481…")Remove this unused "subr" local variable.(ñûßûúÿÿÿÿ8ï€ò©.
+Ksquid:S1481†",Remove this unused "loxleft" local variable.(ÏÀ•õ8ï€ò©.
+Qsquid:S1481‡"-Remove this unused "loxright" local variable.(Æ½×Ñúÿÿÿÿ8ï€ò©.
+Psquid:S1481‰",Remove this unused "hixleft" local variable.(ñ½íûÿÿÿÿ8ï€ò©.
+Ksquid:S1481Š"-Remove this unused "hixright" local variable.(äŞ8ï€ò©.
+Ssquid:S1481˜"/Remove this unused "typexright" local variable.(àÚ’ôûÿÿÿÿ8ï€ò©.
+Qsquid:S1481¥"-Remove this unused "errxleft" local variable.(“ß¨äüÿÿÿÿ8ï€ò©.
+Msquid:S1481¦".Remove this unused "errxright" local variable.(¹ğÖ8ï€ò©.
+Lsquid:S1481§"(Remove this unused "err" local variable.(ÄéÓ¬şÿÿÿÿ8ï€ò©.
+Lsquid:S1481´"-Remove this unused "idxright" local variable.(»òï“8ï€ò©.
+Qsquid:S1481×"-Remove this unused "idxright" local variable.(ˆƒİÉüÿÿÿÿ8ï€ò©.
+Msquid:S1481Ù".Remove this unused "typexleft" local variable.(±¶ †8ï€ò©.
+Nsquid:S1481Ú"/Remove this unused "typexright" local variable.(õ­¡‡8ï€ò©.
+Qsquid:S1481ô"3Remove this unused "procEntryxleft" local variable.(Ş÷ñ8ï€ò©.
+Ssquid:S1481õ"4Remove this unused "procEntryxright" local variable.(Î–Ğƒ8ï€ò©.
+Osquid:S1481÷"+Remove this unused "bxleft" local variable.(´¹ÓÕşÿÿÿÿ8ï€ò©.
+Ksquid:S1481ø",Remove this unused "bxright" local variable.(¨ğş¸8ï€ò©.
+Qsquid:S1481Š"-Remove this unused "idxright" local variable.(ˆƒİÉüÿÿÿÿ8ï€ò©.
+Wsquid:S1481Œ"3Remove this unused "paramListxleft" local variable.(·§˜”üÿÿÿÿ8ï€ò©.
+Ssquid:S1481"4Remove this unused "paramListxright" local variable.(±è˜8ï€ò©.
+Lsquid:S1481¸"-Remove this unused "idxright" local variable.(¿ä©ø8ï€ò©.
+Qsquid:S1481Ô"-Remove this unused "idxright" local variable.(¯¨¹·üÿÿÿÿ8ï€ò©.
+Nsquid:S1481é"/Remove this unused "paramxleft" local variable.(·íÕ´8ï€ò©.
+Tsquid:S1481ê"0Remove this unused "paramxright" local variable.(î¦ûÑûÿÿÿÿ8ï€ò©.
+Wsquid:S1481ø"3Remove this unused "paramListxleft" local variable.(Ğâ›°øÿÿÿÿ8ï€ò©.
+Xsquid:S1481ù"4Remove this unused "paramListxright" local variable.(ÄÇ–øÿÿÿÿ8ï€ò©.
+Nsquid:S1481û"/Remove this unused "paramxleft" local variable.(·íÕ´8ï€ò©.
+Tsquid:S1481ü"0Remove this unused "paramxright" local variable.(î¦ûÑûÿÿÿÿ8ï€ò©.

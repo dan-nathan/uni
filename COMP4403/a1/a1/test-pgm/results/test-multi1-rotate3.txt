@@ -1,0 +1,16 @@
+Compiling test-multi1-rotate3.pl0
+Parsing complete
+Static semantic analysis complete
+Running ...
+1
+2
+3
+2
+3
+1
+1
+2
+3
+
+Terminated
+No errors detected.

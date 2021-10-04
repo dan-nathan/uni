@@ -1,0 +1,18 @@
+// 2 value parameters of different types
+type R1 = [0..31];
+     SR = setof R1;
+var x: int;
+    t: int;
+procedure p(n: int, b:boolean) =
+  var n: int;
+  begin
+    if b then
+      t := n+1
+    else
+      t := n-1;
+    write t
+  end;
+begin
+  call p(101, false);
+  write t       // writes 100
+end
