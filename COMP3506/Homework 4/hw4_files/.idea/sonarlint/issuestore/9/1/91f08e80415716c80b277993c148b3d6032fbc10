@@ -1,0 +1,9 @@
+
+Qsquid:S1118":Add a private constructor to hide the implicit public one.(×¼­Æ
+?squid:S1148m"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+?squid:S1148#"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+:squid:S1148A"#Use a logger to log this exception.(Ç’Çê
+?squid:S1148W"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+T
+squid:S106@"9Replace this use of System.out or System.err by a logger.(‰°Áëÿÿÿÿÿ
+?squid:S2885"#Make "FORMAT" an instance variable.(ÿÈÞ½úÿÿÿÿ

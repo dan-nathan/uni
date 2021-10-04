@@ -1,0 +1,118 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{bm}
+\usepackage{graphicx}
+\usepackage{listings}
+\lstdefinestyle{java}{
+	language=java,
+	numbers=left,
+	stepnumber=1,
+	numbersep=0pt,
+	tabsize=4,
+	showspaces=false,
+	showstringspaces=false,
+	basicstyle=\tiny
+}
+\lstset{style=java}
+
+\author{Daniel Nathan}
+\title{COMP3506 Homework 2}
+
+\begin{document}
+	\maketitle
+
+	The code for the implementation of sortQueue (with comments taken out) is shown below. The number of primitive operations required for each line is given, as is the expected number of times a loop will run. Note that the runtime for queue methods is calculated from the code for LinkedList to be 1 for queue.size(), 3 for queue.remove() and 8 for queue.add() (2, 4, and 9 respectively including an operation for the function call). compareTo is assumed to be one primitive operation.
+	\begin{lstlisting}
+	public static <T extends Comparable<T>> void 
+			sortQueue(Queue<T> queue) {
+		T selected;
+		// 1 initial operation (assignment of i)
+		// runs n - 1 times, with 5 operations each time (compare,
+		// increment, queue.size function call, subtract)
+		for (int i = 0; i < queue.size() - 1; i++) {
+			// 5 operations (1 for assignment, 4 for queue.remove)
+			selected = queue.remove(); 
+			// runs n - 1 times, with 4 operations each time
+			for (int j = 0; j < queue.size(); j++) { 
+				// 5 operations (1 for assignment, 4 for queue.remove)
+				T front = queue.remove(); 
+				// compareTo method & comparison - 2
+				if (front.compareTo(selected) > 0) {
+					queue.add(selected); // 9 operations
+					selected = front; // 1 operations
+				} else {
+					queue.add(front); // 9 operations
+				}
+			}
+			queue.add(selected); // 9 operations
+		}
+	}
+	\end{lstlisting}
+	Let n be the number of elements in the queue. In the worst case, the if statement will be true every time, resulting in $4 + 5 + 9 + 1 = 19$ elementary operations per loop of the inner loop. This loop has one assignment operation for j, and is then run $n - 1$ times, resulting in $19(n - 1) + 1 = 19n - 18$ operations. From this, every time the outer loop runs, it will take $5 + 5 + (19n - 18) + 9 = 19n + 1$ operations. Running this $n - 1$ times, plus once more to assign i results in a total operations required ($T(n)$) of 
+	\begin{align*}
+		T(n) &= (19n + 1)(n - 1) + 1 \\
+		&= 19n^2 - 18n - 1 + 1 \\
+		&= 19n^2 - 18n
+	\end{align*}
+	Choosing $c = 19, n_0 = 1$, it can be shown that this run time is $O(n^2)$. For $n \ge 1$:
+	\begin{align*}
+		19n^2 - 18n &\le 19n^2 
+	\end{align*}
+	For findMissingNumber, the code is:
+	\begin{lstlisting}
+	public static int findMissingNumber(int[] numbers) {
+		return fMNRecursion(numbers, 0, numbers.length);
+	}
+	\end{lstlisting}
+	This is a method call, and a return from a method (2 operations). for fMNRecursion:
+	\begin{lstlisting}
+	private static int fMNRecursion(int[] numbers, int start, int end) {
+		if (end - start == 2) { // 2 operations (subtract, comparison)
+			// 6 operations (return, 2 indexing, 3 arithmetic)
+			return (numbers[start] + numbers[end - 1]) / 2;
+		}
+		// 6 operations (assignment, math.abs, 2 indexing, 2 arithmetic) 
+		int difference1 = Math.abs(numbers[start + 1] - numbers[start]);
+		// 7 operations (assignment, math.abs, 2 indexing, 3 arithmetic) 
+		int difference2 = Math.abs(numbers[end - 1] - numbers[end - 2]);
+		if (difference1 > difference2) { // 1 operation (comparison)
+			// 6 operations (return, 2 indexing, 3 arithmetic)
+			return (numbers[start + 1] + numbers[start]) / 2; 
+		} else if (difference2 > difference1) { // 1 operation
+			// 7 operations (return, 2 indexing, 4 arithmetic)
+			return (numbers[end - 1] + numbers[end - 2]) / 2;
+		} else {
+			// 4 (method call, return, 2 arithmetic)
+			return fMNRecursion(numbers, start + 1, end - 1);
+		}
+	}
+	\end{lstlisting}
+	Let n be the number of elements in the array. The first if statement required 2 primitive operations. In the end $-$ start $== 2$ base case, $2 + 6 = 8$ primitive operations are required. The two variable assignments take 13 elementary operations between them. If difference1 $>$ difference2, the total primitive operations is $2 + 13 + 1 + 6 = 22$. If, difference2 $>$ difference 1, $2 + 13 + 1 + 1 + 7 = 24$ total primitive operation are required. In the non-base case $2 + 13 + 1 + 1 + 4 = 21$ total primitive operations are required. The size ($n$) is also decreased by 2 in the non-base case. From this, a mathematical reccurence for this running time ($T(n)$) is:
+	\begin{align*}
+		T(n) = \begin{cases} 8, n = 2 \\
+		22, \text{difference1} > \text{difference2} \\
+		24, \text{difference2} > \text{difference1} \\
+		22 + T(n - 2), \text{non-base case}  \end{cases}
+	\end{align*}
+	This is $O(n)$, as a constant amount of operations are required for a constant decrease in size of $n$ in the non-base case (resulting in a linear relationship between size and running time), and the base cases all run in constant time. 
+	\newpage
+	\textit{Note: everything on this page was done before I realised that I only had to give the recurrence and deduce the asymptotic efficiency from that (rather than getting a function for running time). I'm not deleting what I've already done, but my answer is complete without this page (so please don't mark me down for my answer being too long!)}
+	\newline \\
+	This recurrence can also yield a function for runtime. An array of odd length in the worst case ($n = 3$ for base case, difference2 $>$ difference1) will take 
+	\begin{align*}
+		24 + 22 \times \frac{n - 3}{2} &= 22 + 11 (n - 3) \\
+		&= 11n - 11
+	\end{align*}
+	operations, as each call other than the base case of n = 3 will remove 2 from the length of the array. For an array of even length, the worst case ($n = 2$) 
+	\begin{align*}
+		8 + 22 \times \frac{n - 2}{2} &= 8 + 11 (n - 2) \\
+		&= 11n - 14
+	\end{align*}
+	operations. Therefore the worst case is for an odd array length. Adding this to the 2 operations from the initial function call, the worst case run time is $11n - 9$. Choosing $c = 11, n_0 = 1$, it can be verified that this run time is $O(n)$. For $n \ge 1$:
+	\begin{align*}
+		11n - 9 &\le 11n
+	\end{align*}
+\end{document}
